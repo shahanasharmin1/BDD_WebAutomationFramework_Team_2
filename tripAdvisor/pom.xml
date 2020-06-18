@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>Expedia</artifactId>
+    <artifactId>tripAdvisor</artifactId>
 
     <dependencies>
         <dependency>
@@ -48,8 +48,6 @@
         </plugins>
 
     </build>
-
-
 
 
 </project>

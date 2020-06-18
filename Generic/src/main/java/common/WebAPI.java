@@ -40,9 +40,9 @@ public class WebAPI {
         driver.quit();
     }
 
-    public void setUp(boolean useCloudEnv, String cloudEnvName,
+    public void setUp(boolean useCloudEnv,  String cloudEnvName,
                       String os, String os_version, String browserName,
-                      String browserVersion, String url) throws IOException {
+                              String browserVersion, String url) throws IOException {
 
         if (useCloudEnv == true) {
             if (cloudEnvName.equalsIgnoreCase("browserstack")) {
@@ -65,7 +65,7 @@ public class WebAPI {
             if (OS.equalsIgnoreCase("OS X")) {
                 System.setProperty("webdriver.chrome.driver", "BrowserDriver/mac/chromedriver");
             } else if (OS.equalsIgnoreCase("Windows")) {
-                System.setProperty("webdriver.chrome.driver", "BrowserDriver/windows/chromedriver.exe.");
+                System.setProperty("webdriver.chrome.driver", "BrowserDriver/windows/chromedriver.exe");
             }
             driver = new ChromeDriver();
         } else if (browserName.equalsIgnoreCase("chrome-options")) {
