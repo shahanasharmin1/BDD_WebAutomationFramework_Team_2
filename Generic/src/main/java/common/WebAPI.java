@@ -26,7 +26,6 @@ import java.util.concurrent.TimeUnit;
 
 public class WebAPI {
 
-
     //Browser SetUp
     public static WebDriver driver = null;
     public String browserstack_username = "asifulzahid1";
@@ -111,8 +110,6 @@ public class WebAPI {
         }
         return driver;
     }
-
-
 
     //helper methods
     public void clickOnElement(String locator) {

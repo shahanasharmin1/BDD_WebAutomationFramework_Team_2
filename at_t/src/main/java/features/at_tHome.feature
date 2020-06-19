@@ -7,3 +7,10 @@ Feature: Search Deals on at&t search box
     When I click search button
     Then I should see deals
 
+#    Scenario: Sign in option
+#      Given I am at at&t Home Page
+#      When I click Account button
+#      Then I should see Sign in
+
+
+
