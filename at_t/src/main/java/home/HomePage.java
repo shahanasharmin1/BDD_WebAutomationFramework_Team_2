@@ -3,8 +3,10 @@ package home;
 import com.mysql.cj.jdbc.Driver;
 import common.WebAPI;
 import org.junit.Assert;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
@@ -19,22 +21,32 @@ public class HomePage extends WebAPI {
     public WebElement usersearchbox;
     @FindBy(how = How.CSS, using = clicksearchbutton )
     public WebElement clickonsearchbutton;
+    @FindBy(how = How.XPATH, using = At_TDeals )
+    public WebElement clickAt_TDeals;
+    @FindBy(how = How.XPATH, using = validationWE )
+    public WebElement checkvalidationWE;
 
     public void enterKeyWord() throws InterruptedException {
         //Enter keyword in search box
         driver.manage().window().maximize();
+        Thread.sleep(3000);
         usersearchbox.sendKeys("AT&T Deals");
+        Actions drpdown = new Actions(driver);
+        drpdown.sendKeys(Keys.ENTER).perform();
         Thread.sleep(3000);
     }
     public void clickSearchButton() {
-        clickonsearchbutton.click();
+//        clickAt_TDeals.click();
+        //clickonsearchbutton.click();
     }
     public void validateSearchProduct(String expectedResult) {
-        String actualResult = clickonsearchbutton.getText();
-        Assert.assertEquals("Search Result not Displayed",expectedResult,actualResult);
+        //String actualResult = checkvalidationWE.getText();
+        String actualResult = driver.getTitle();
+        System.out.println(actualResult);
+       // Assert.assertEquals("Search Result not Displayed",expectedResult,actualResult);
     }
     public void validateSearchProduct(List<String> expectedResult) {
-        String actualResult = clickonsearchbutton.getText();
+        String actualResult = checkvalidationWE.getText();
         Assert.assertEquals("Search Result not Displayed",expectedResult,actualResult);
     }
 }

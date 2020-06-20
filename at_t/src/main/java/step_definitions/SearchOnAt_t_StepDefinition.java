@@ -45,7 +45,7 @@ public class SearchOnAt_t_StepDefinition extends WebAPI {
     @Then("I should see deals")
     public void i_should_see_deals() {
         getInitElements();
-        homePage.clickonsearchbutton.getText();
+        homePage.validateSearchProduct("Results for AT&T Deals - AT&T Search");
         //homePage.validateSearchProduct("AT&T Deals");
     }
 }
