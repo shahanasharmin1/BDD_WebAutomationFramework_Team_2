@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-06-20T04:25:21.436Z",
+        "start_timestamp": "2020-06-21T03:09:02.937Z",
         "before": [
           {
             "result": {
-              "duration": 4496639200,
+              "duration": 4561991500,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 657876100,
+              "duration": 722239100,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 16591300,
+              "duration": 16592400,
               "status": "passed"
             },
             "line": 4,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 2512729000,
+              "duration": 3028562200,
               "status": "passed"
             },
             "line": 5,
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 2330896000,
+              "duration": 2925152800,
               "status": "passed"
             },
             "line": 6,
@@ -71,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 57584300,
+              "duration": 33183400,
               "status": "passed"
             },
             "line": 7,
@@ -89,11 +89,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-06-20T04:25:31.562Z",
+        "start_timestamp": "2020-06-21T03:09:14.274Z",
         "before": [
           {
             "result": {
-              "duration": 3932546600,
+              "duration": 4875288400,
               "status": "passed"
             },
             "match": {
@@ -108,7 +108,7 @@
         "after": [
           {
             "result": {
-              "duration": 615892900,
+              "duration": 674416100,
               "status": "passed"
             },
             "match": {
@@ -121,7 +121,7 @@
         "steps": [
           {
             "result": {
-              "duration": 976600,
+              "duration": 975700,
               "status": "passed"
             },
             "line": 11,
@@ -133,8 +133,9 @@
           },
           {
             "result": {
-              "duration": 599263400,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#rtm_list1 \u003e div \u003e a \u003e div \u003e div\"}\n  (Session info: chrome\u003d83.0.4103.106)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-HKN9H90\u0027, ip: \u0027192.168.1.25\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\asifu\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62821}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 454404748d1dd0dd88cc873dcf012a78\n*** Element info: {Using\u003dcss selector, value\u003d#rtm_list1 \u003e div \u003e a \u003e div \u003e div}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\r\n\tat home.HomePage.userclickonimageWebelement(HomePage.java:47)\r\n\tat step_definitions.SearchOnEbay_Step_Definition.i_click_on_image_of_ebayHomePage(SearchOnEbay_Step_Definition.java:54)\r\n\tat ✽.I click on image of ebayHomePage(file:///F:/SeleniumProject/BDD_WebAutomationFramework_Team_2/Ebay/src/main/java/features/EbayHome.feature:12)\r\n",
+              "duration": 10042406700,
+              "status": "failed"
             },
             "line": 12,
             "name": "I click on image of ebayHomePage",
@@ -145,8 +146,8 @@
           },
           {
             "result": {
-              "duration": 23423300,
-              "status": "passed"
+              "duration": 976400,
+              "status": "skipped"
             },
             "line": 13,
             "name": "I should see  variety section",

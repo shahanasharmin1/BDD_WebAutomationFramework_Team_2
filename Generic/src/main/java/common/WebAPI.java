@@ -32,13 +32,10 @@ public class WebAPI {
     public String browserstack_accesskey = "gSPrV8n4sm6rYQsmxxxU";
     public String saucelabs_username = "";
     public String saucelabs_accesskey = "";
-
-
     public void cleanUp() {
         //driver.close();
         driver.quit();
     }
-
     public void setUp(boolean useCloudEnv,  String cloudEnvName,
                       String os, String os_version, String browserName,
                               String browserVersion, String url) throws IOException {
@@ -57,7 +54,45 @@ public class WebAPI {
         driver.get(url);
         //driver.manage().window().maximize();
     }
+    public void windowMaximize(){
+        driver.manage().window().maximize();
+    }
+    public void implicitwait(){
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    }
 
+    public void scrollDownTheWebPage() {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollBy(0,1000)");
+    }
+    public void findBrokenLink() {
+        List<WebElement> links = driver.findElements(By.tagName("a"));
+        System.out.println("Total links are " + links.size());
+        for (int i = 0; i < links.size(); i++) {
+            WebElement ele = links.get(i);
+            String url = ele.getAttribute("href");
+            verifyLinkActive(url);
+        }
+    }
+    public void scrollDownTillEnd() {
+        JavascriptExecutor js1 = (JavascriptExecutor) driver;
+        js1.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+    }
+    public static void verifyLinkActive(String linkUrl) {
+        try {
+            URL url = new URL(linkUrl);
+            HttpURLConnection httpURLConnect = (HttpURLConnection) url.openConnection();
+            httpURLConnect.setConnectTimeout(3000);
+            httpURLConnect.connect();
+            if (httpURLConnect.getResponseCode() == 200) {
+                System.out.println(linkUrl + " - " + httpURLConnect.getResponseMessage());
+            }
+            if (httpURLConnect.getResponseCode() == HttpURLConnection.HTTP_NOT_FOUND) {
+                System.out.println(linkUrl + " - " + httpURLConnect.getResponseMessage() + " - " + HttpURLConnection.HTTP_NOT_FOUND);
+            }
+        } catch (Exception e) {
+        }
+    }
     public WebDriver getLocalDriver(String OS, String browserName) {
 
         if (browserName.equalsIgnoreCase("chrome")) {
@@ -245,15 +280,11 @@ public class WebAPI {
 
 
     }
-
-
-
     public static String convertToString(String st) {
         String splitString = "";
         splitString = StringUtils.join(StringUtils.splitByCharacterTypeCamelCase(st), ' ');
         return splitString;
     }
-
     public static void clickOnElement(String locator, WebDriver driver1) {
         try {
             driver1.findElement(By.cssSelector(locator)).click();

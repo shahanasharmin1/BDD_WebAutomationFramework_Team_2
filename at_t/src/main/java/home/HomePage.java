@@ -26,18 +26,15 @@ public class HomePage extends WebAPI {
     @FindBy(how = How.XPATH, using = validationWE )
     public WebElement checkvalidationWE;
 
-    public void enterKeyWord() throws InterruptedException {
+    public void enterKeyWord(){
         //Enter keyword in search box
-        driver.manage().window().maximize();
-        Thread.sleep(3000);
         usersearchbox.sendKeys("AT&T Deals");
         Actions drpdown = new Actions(driver);
         drpdown.sendKeys(Keys.ENTER).perform();
-        Thread.sleep(3000);
     }
     public void clickSearchButton() {
-//        clickAt_TDeals.click();
-        //clickonsearchbutton.click();
+        clickAt_TDeals.click();
+        clickonsearchbutton.click();
     }
     public void validateSearchProduct(String expectedResult) {
         //String actualResult = checkvalidationWE.getText();
@@ -48,5 +45,7 @@ public class HomePage extends WebAPI {
     public void validateSearchProduct(List<String> expectedResult) {
         String actualResult = checkvalidationWE.getText();
         Assert.assertEquals("Search Result not Displayed",expectedResult,actualResult);
+
+
     }
 }

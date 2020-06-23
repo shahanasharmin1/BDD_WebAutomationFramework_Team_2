@@ -12,9 +12,6 @@ formatter.scenario({
 formatter.before({
   "status": "passed"
 });
-formatter.before({
-  "status": "passed"
-});
 formatter.step({
   "name": "I am at at\u0026t Home Page",
   "keyword": "Given "
@@ -46,16 +43,13 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "I should see deals",
+  "name": "I should see deal",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "step_definitions.SearchOnAt_t_StepDefinition.i_should_see_deals()"
+  "location": "step_definitions.SearchOnAt_t_StepDefinition.i_should_see_deal()"
 });
 formatter.result({
-  "status": "passed"
-});
-formatter.after({
   "status": "passed"
 });
 formatter.after({

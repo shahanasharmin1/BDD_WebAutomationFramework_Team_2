@@ -3,24 +3,15 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-06-20T12:42:39.875Z",
+        "start_timestamp": "2020-06-23T03:42:39.120Z",
         "before": [
           {
             "result": {
-              "duration": 6351804900,
+              "duration": 6596493900,
               "status": "passed"
             },
             "match": {
               "location": "step_definitions.SearchOnAt_t_StepDefinition.openBrowser()"
-            }
-          },
-          {
-            "result": {
-              "duration": 6106895600,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.SignInOption_Step_Definition.openBrowser()"
             }
           }
         ],
@@ -31,15 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 683267500,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.SignInOption_Step_Definition.closeBrowser()"
-            }
-          },
-          {
-            "result": {
+              "duration": 843265500,
               "status": "passed"
             },
             "match": {
@@ -52,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 15616000,
+              "duration": 16591300,
               "status": "passed"
             },
             "line": 5,
@@ -64,7 +47,6 @@
           },
           {
             "result": {
-              "duration": 13137418600,
               "status": "passed"
             },
             "line": 6,
@@ -76,6 +58,7 @@
           },
           {
             "result": {
+              "duration": 975800,
               "status": "passed"
             },
             "line": 7,
@@ -87,13 +70,13 @@
           },
           {
             "result": {
-              "duration": 14639800,
+              "duration": 976500,
               "status": "passed"
             },
             "line": 8,
-            "name": "I should see deals",
+            "name": "I should see deal",
             "match": {
-              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_should_see_deals()"
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_should_see_deal()"
             },
             "keyword": "Then "
           }

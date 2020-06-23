@@ -5,12 +5,11 @@ Feature: Search Deals on at&t search box
     Given I am at at&t Home Page
     And I enter deals on the search box in homepage
     When I click search button
-    Then I should see deals
+    Then I should see deal
 
-#    Scenario: Sign in option
-#      Given I am at at&t Home Page
-#      When I click Account button
-#      Then I should see Sign in
+  Sc
+
+
 
 
 
