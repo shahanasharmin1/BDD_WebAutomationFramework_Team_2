@@ -14,14 +14,13 @@ import java.io.IOException;
 public class SearchOnAt_t_StepDefinition extends WebAPI {
     @Before
     public void openBrowser() throws IOException {
-        setUp(false, "browserstack", "windows", "10", "chrome", "83", "https://www.att.com/");
+        setUp(false, "browserstack", "OS X", "10", "chrome", "83", "https://www.att.com/");
     }
-
     @After
     public void closeBrowser() {
         cleanUp();
     }
-    static HomePage homePage; // Reference Variable/ object of HomePage
+    static HomePage homePage;
     public static void getInitElements() {
         homePage = PageFactory.initElements(driver, HomePage.class);
     }
@@ -31,25 +30,37 @@ public class SearchOnAt_t_StepDefinition extends WebAPI {
         getInitElements();
     }
 
-    @Given("I enter deals on the search box in homepage")
-    public void i_enter_deals_on_the_search_box_in_homepage() throws InterruptedException {
-        getInitElements();
-        homePage.enterKeyWord();
-
+    @Given("I enter at&t tv on the search box in homepage")
+    public void i_enter_at_t_tv_on_the_search_box_in_homepage() {
+        homePage. enterKeyWord();
     }
-
     @When("I click search button")
     public void i_click_search_button() {
-        getInitElements();
         homePage.clickSearchButton();
+    }
+    @Then("I should see at&t tv")
+    public void i_should_see_at_t_tv() {
+      getInitElements();
+    }
+
+    @When("I click on drop down button of Account Tab and I can select Manage Profile options")
+    public void i_click_on_drop_down_button_of_Account_Tab_and_I_can_select_Manage_Profile_options() {
+        homePage.userclickonDropButton();
+    }
+
+
+    @Then("I can see the results")
+    public void i_can_see_the_results() {
 
     }
 
-    @Then("I should see deals")
-    public void i_should_see_deals() {
-        getInitElements();
-        homePage.validateSearchProduct("\"AT&T Deals\"");
 
-    }
+
+
+
+
+
+
+
 
 }

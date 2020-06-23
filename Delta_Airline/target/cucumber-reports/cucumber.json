@@ -1,0 +1,108 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13834000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am at delta.com homePage",
+            "match": {
+              "location": "step_definitions.SearchOnDelta_Airline_StepDefinition.i_am_at_delta_com_homePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-23T03:57:57.076Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4999686000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnDelta_Airline_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "HoverOn SkyMiles Tab",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-delta.com-homepage;hoveron-skymiles-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 98780000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnDelta_Airline_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 130593000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I hover on SkyMiles",
+            "match": {
+              "location": "step_definitions.SearchOnDelta_Airline_StepDefinition.i_hover_on_SkyMiles()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 140878000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I click on a login tab",
+            "match": {
+              "location": "step_definitions.SearchOnDelta_Airline_StepDefinition.i_click_on_a_login_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10434878000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I will see the log in page",
+            "match": {
+              "location": "step_definitions.SearchOnDelta_Airline_StepDefinition.i_will_see_the_log_in_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test7"
+          }
+        ]
+      }
+    ],
+    "name": "As a customer I want to explore Delta.com homepage",
+    "description": "",
+    "id": "as-a-customer-i-want-to-explore-delta.com-homepage",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/Delta_AirlineHome.feature",
+    "tags": []
+  }
+]

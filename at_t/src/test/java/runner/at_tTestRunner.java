@@ -12,9 +12,9 @@ import org.junit.runner.RunWith;
         strict = true,
         monochrome = true,
         dryRun = false,
-        tags = ""
+        tags = "@Test2"
 
 )
-
 public class at_tTestRunner {
+
 }

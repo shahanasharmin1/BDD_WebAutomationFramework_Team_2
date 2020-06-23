@@ -11,28 +11,40 @@ import static webelements.WebElements.*;
 
 public class HomePage extends WebAPI {
 
-    //    @FindBy(css=shopLinksWebElements) public List<WebElement> shopLinks;
-    @FindBy(how = How.CSS, using = searchbox )
+    @FindBy(how = How.CSS, using = searchbox)
     public WebElement usersearchbox;
-    @FindBy(how = How.CSS, using = clicksearchbutton )
+    @FindBy(how = How.CSS, using = clicksearchbutton)
     public WebElement clickonsearchbutton;
+    @FindBy(how = How.XPATH, using = tvelelemnt)
+    public WebElement tvWebelelemnt;
+    @FindBy(how = How.XPATH, using = accounttab )
+    public WebElement accounttabelement ;
 
-    public void enterKeyWord() throws InterruptedException {
-        //Enter keyword in search box
-        driver.manage().window().maximize();
-        Thread.sleep(3000);
-        usersearchbox.sendKeys("AT&T Deals");
-
+    public void enterKeyWord()  {
+        usersearchbox.sendKeys("at&t tv");
     }
     public void clickSearchButton() {
         clickonsearchbutton.click();
     }
 
     public void validateSearchProduct(String expectedResult) {
-        String actualResult = "AT&T Deals";
-        Assert.assertEquals("Search Result not Displayed",expectedResult,actualResult);
-
+        windowMaximize();
+        String actualResult = tvWebelelemnt.getText();
+        Assert.assertEquals("Search Result not Displayed", expectedResult, actualResult);
     }
+
+    public void userclickonDropButton(){
+        selectOptionByVisibleText(accounttabelement, "Manage profile");
+    }
+
+
+
+
+
+
+
+
+
 
 
 }

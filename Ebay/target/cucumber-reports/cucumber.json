@@ -1,0 +1,87 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-19T22:22:44.206Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2095832000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "click on ebay homePage image",
+        "description": "",
+        "id": "explore-ebay-homepage;click-on-ebay-homepage-image",
+        "after": [
+          {
+            "result": {
+              "duration": 90151000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23344000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am on ebay.com",
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.i_am_on_ebay_com()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 877203000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on image of ebayHomePage",
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.i_click_on_image_of_ebayHomePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25902000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should see  variety section",
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.i_should_see_variety_section()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test1"
+          }
+        ]
+      }
+    ],
+    "name": "Explore ebay HomePage",
+    "description": "",
+    "id": "explore-ebay-homepage",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/EbayHome.feature",
+    "tags": []
+  }
+]

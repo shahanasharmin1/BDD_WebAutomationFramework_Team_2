@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12107000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am at geico.com homepage",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_am_at_geico_com_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-21T22:30:23.784Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2936808000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "scroll till the end of the cigna homepage",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-on-a-geico-homepage;scroll-till-the-end-of-the-cigna-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 82164000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13121000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "i scroll till the end",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_scroll_till_the_end()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48594000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I will see the the page are scrolled tillend",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_will_see_the_the_page_are_scrolled_tillend()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test4"
+          }
+        ]
+      }
+    ],
+    "name": "As a customer I want to explore on a geico homePage",
+    "description": "",
+    "id": "as-a-customer-i-want-to-explore-on-a-geico-homepage",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/GeicoHome.feature",
+    "tags": []
+  }
+]

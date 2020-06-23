@@ -1,0 +1,99 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-21T21:34:49.633Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2700303000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "search hotels",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-tripadvisor.com;search-hotels",
+        "after": [
+          {
+            "result": {
+              "duration": 102566000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14898000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at tripAdvisor.com now",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_am_at_tripAdvisor_com_now()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 64334000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on hotels tab",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_click_on_hotels_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 162049000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I search hotels in the search box",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_search_hotels_in_the_search_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21279000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should see the hotels",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_should_see_the_hotels()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test1"
+          }
+        ]
+      }
+    ],
+    "name": "As a customer I want to explore tripAdvisor.com",
+    "description": "",
+    "id": "as-a-customer-i-want-to-explore-tripadvisor.com",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/tripAdvisorHome.feature",
+    "tags": []
+  }
+]
