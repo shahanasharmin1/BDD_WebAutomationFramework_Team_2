@@ -1,5 +1,6 @@
 package common;
 
+
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.*;
@@ -22,6 +23,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 public class WebAPI {
@@ -29,8 +31,8 @@ public class WebAPI {
 
     //Browser SetUp
     public static WebDriver driver = null;
-    public String browserstack_username = "asifulzahid1";
-    public String browserstack_accesskey = "gSPrV8n4sm6rYQsmxxxU";
+    public String browserstack_username = "mhshahib1";
+    public String browserstack_accesskey = "YA4xsqrMqFurrGduX1X9";
     public String saucelabs_username = "";
     public String saucelabs_accesskey = "";
 
@@ -40,9 +42,9 @@ public class WebAPI {
         driver.quit();
     }
 
-    public void setUp(boolean useCloudEnv,  String cloudEnvName,
+    public void setUp(boolean useCloudEnv, String cloudEnvName,
                       String os, String os_version, String browserName,
-                              String browserVersion, String url) throws IOException {
+                      String browserVersion, String url) throws IOException {
 
         if (useCloudEnv == true) {
             if (cloudEnvName.equalsIgnoreCase("browserstack")) {
@@ -111,7 +113,6 @@ public class WebAPI {
         }
         return driver;
     }
-
 
 
     //helper methods
@@ -184,6 +185,7 @@ public class WebAPI {
     public void navigateBack() {
         driver.navigate().back();
     }
+
     public void navigateTo(String url) {
         driver.navigate().to(url);
     }
@@ -191,6 +193,7 @@ public class WebAPI {
     public void navigateForward() {
         driver.navigate().forward();
     }
+
     public void navigateRefresh() {
         driver.navigate().refresh();
     }
@@ -203,7 +206,6 @@ public class WebAPI {
     public void getTitle() {
         driver.getTitle();
     }
-
 
 
     public static String captureScreenshot(WebDriver driver, String screenshotName) throws IOException {
@@ -229,7 +231,7 @@ public class WebAPI {
         String df = new SimpleDateFormat("yyyyMMddhhss").format(new Date());
 
         //create object variable of TakeScreenshot class
-        TakesScreenshot ts = (TakesScreenshot)driver;
+        TakesScreenshot ts = (TakesScreenshot) driver;
 
         //create File object variable which holds the screen shot reference
         File source = ts.getScreenshotAs(OutputType.FILE);
@@ -248,7 +250,6 @@ public class WebAPI {
 
 
     }
-
 
 
     public static String convertToString(String st) {
@@ -561,4 +562,15 @@ public class WebAPI {
     }
 
 
+    public void handleWindow() {
+        String parentHandle = driver.getWindowHandle();
+        System.out.println("parent window - " + parentHandle);
+        Set<String> handles = driver.getWindowHandles();
+        for (String handle : handles) {
+            System.out.println(handle);
+            if (!handle.equals(parentHandle)) {
+                driver.switchTo().window(handle);
+            }
+        }
+    }
 }

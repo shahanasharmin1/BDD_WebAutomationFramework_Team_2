@@ -1,0 +1,930 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 29547000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I\u0027m already inside Ebay home page",
+            "match": {
+              "location": "step_definitions.FooterStep_definition.i_m_already_inside_Ebay_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T01:11:19.724Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2302714000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HeaderStep_Definition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1564435000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.FooterStep_definition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1658787000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "see all the companies under Ebay name",
+        "description": "",
+        "id": "work-on-ebay-footer-elements;see-all-the-companies-under-ebay-name",
+        "after": [
+          {
+            "result": {
+              "duration": 92326000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 42000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.FooterStep_definition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 22000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HeaderStep_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 154531000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select see all companies",
+            "match": {
+              "location": "step_definitions.FooterStep_definition.i_select_see_all_companies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2253000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "companies with Ebay name sould display",
+            "match": {
+              "location": "step_definitions.FooterStep_definition.companies_with_Ebay_name_sould_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2542000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I\u0027m already inside Ebay home page",
+            "match": {
+              "location": "step_definitions.FooterStep_definition.i_m_already_inside_Ebay_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T01:11:25.592Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1539798000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HeaderStep_Definition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1523467000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.FooterStep_definition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1911596000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "explore job offers",
+        "description": "",
+        "id": "work-on-ebay-footer-elements;explore-job-offers",
+        "after": [
+          {
+            "result": {
+              "duration": 99793000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 31000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.FooterStep_definition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 17000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HeaderStep_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 389229000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on careers",
+            "match": {
+              "location": "step_definitions.FooterStep_definition.i_click_on_careers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2850141000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I select build opportunity",
+            "match": {
+              "location": "step_definitions.FooterStep_definition.i_select_build_opportunity()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1319000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should see job offers",
+            "match": {
+              "location": "step_definitions.FooterStep_definition.i_should_see_job_offers()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2083000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I\u0027m already inside Ebay home page",
+            "match": {
+              "location": "step_definitions.FooterStep_definition.i_m_already_inside_Ebay_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T01:11:33.918Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1603084000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HeaderStep_Definition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1695009000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.FooterStep_definition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2069274000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "bay a concert tickets",
+        "description": "",
+        "id": "work-on-ebay-footer-elements;bay-a-concert-tickets",
+        "after": [
+          {
+            "result": {
+              "duration": 107106000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 30000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.FooterStep_definition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 13000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HeaderStep_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 539773000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I select Music",
+            "match": {
+              "location": "step_definitions.HeaderStep_Definition.i_select_Music()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1220034000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on Concert tickets",
+            "match": {
+              "location": "step_definitions.HeaderStep_Definition.i_click_on_Concert_tickets()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2473000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I can reach the page to bay tickets",
+            "match": {
+              "location": "step_definitions.HeaderStep_Definition.i_can_reach_the_page_to_bay_tickets()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2305000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I\u0027m already inside Ebay home page",
+            "match": {
+              "location": "step_definitions.FooterStep_definition.i_m_already_inside_Ebay_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T01:11:41.192Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1585577000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HeaderStep_Definition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1944341000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.FooterStep_definition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2184526000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "learn about ebay community",
+        "description": "",
+        "id": "work-on-ebay-footer-elements;learn-about-ebay-community",
+        "after": [
+          {
+            "result": {
+              "duration": 117352000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 162000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.FooterStep_definition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 264000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HeaderStep_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 390963000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I select ebay community",
+            "match": {
+              "location": "step_definitions.FooterStep_definition.i_select_ebay_community()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5603546000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click about community",
+            "match": {
+              "location": "step_definitions.FooterStep_definition.i_click_about_community()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1602000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I can learn more about the community",
+            "match": {
+              "location": "step_definitions.FooterStep_definition.i_can_learn_more_about_the_community()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2878000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I\u0027m already inside Ebay home page",
+            "match": {
+              "location": "step_definitions.FooterStep_definition.i_m_already_inside_Ebay_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T01:11:53.112Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1634478000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HeaderStep_Definition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2027666000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.FooterStep_definition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2228863000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "validate Register as a developers page",
+        "description": "",
+        "id": "work-on-ebay-footer-elements;validate-register-as-a-developers-page",
+        "after": [
+          {
+            "result": {
+              "duration": 668052000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 67000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.FooterStep_definition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 53000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HeaderStep_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 252891000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I select developers link",
+            "match": {
+              "location": "step_definitions.FooterStep_definition.i_select_developers_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1523308000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I click register",
+            "match": {
+              "location": "step_definitions.FooterStep_definition.i_click_register()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 76246000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I can see registration page",
+            "match": {
+              "location": "step_definitions.FooterStep_definition.i_can_see_registration_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1823000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I\u0027m already inside Ebay home page",
+            "match": {
+              "location": "step_definitions.FooterStep_definition.i_m_already_inside_Ebay_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T01:12:01.545Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1733858000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HeaderStep_Definition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2202093000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.FooterStep_definition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3156958000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "learn more about the feedback policy",
+        "description": "",
+        "id": "work-on-ebay-footer-elements;learn-more-about-the-feedback-policy",
+        "after": [
+          {
+            "result": {
+              "duration": 100806000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 29000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.FooterStep_definition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 16000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HeaderStep_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1235198000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "select policies  link",
+            "match": {
+              "location": "step_definitions.FooterStep_definition.select_policies_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 363827000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I click feedback policy link",
+            "match": {
+              "location": "step_definitions.FooterStep_definition.i_click_feedback_policy_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4316000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I can read more information",
+            "match": {
+              "location": "step_definitions.FooterStep_definition.i_can_read_more_information()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3526000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I\u0027m already inside Ebay home page",
+            "match": {
+              "location": "step_definitions.FooterStep_definition.i_m_already_inside_Ebay_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T01:12:10.359Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1893223000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HeaderStep_Definition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2564238000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.FooterStep_definition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3481579000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "Ebay global impact",
+        "description": "",
+        "id": "work-on-ebay-footer-elements;ebay-global-impact",
+        "after": [
+          {
+            "result": {
+              "duration": 118203000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 38000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.FooterStep_definition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 32000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HeaderStep_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 424413000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I select global impact",
+            "match": {
+              "location": "step_definitions.FooterStep_definition.i_select_global_impact()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3530793000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I hover to investor",
+            "match": {
+              "location": "step_definitions.FooterStep_definition.i_hover_to_investor()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1816072000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I click on investor tab",
+            "match": {
+              "location": "step_definitions.FooterStep_definition.i_click_on_investor_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5938000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I should see the investor relation page",
+            "match": {
+              "location": "step_definitions.FooterStep_definition.i_should_see_the_investor_relation_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "work on Ebay footer elements",
+    "description": "  I want to test couple element pages from Ebay footer",
+    "id": "work-on-ebay-footer-elements",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/EbayFooter.feature",
+    "tags": []
+  }
+]

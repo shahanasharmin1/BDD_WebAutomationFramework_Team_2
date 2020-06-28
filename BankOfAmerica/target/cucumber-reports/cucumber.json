@@ -1,0 +1,1086 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 469400000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already in home page",
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.user_is_already_in_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T01:21:30.761Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2193626000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HeaderStep_Definitions.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1487592000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1552713000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.FooterStep_Definitions.openBrowser()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Log in with invalid credential",
+        "description": "",
+        "id": "log-into-bank-of-america-account;log-in-with-invalid-credential",
+        "after": [
+          {
+            "result": {
+              "duration": 99807000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.FooterStep_Definitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 55000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 33000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HeaderStep_Definitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 628703000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters kahina",
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.user_enters_kahina()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 158093000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters test123",
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.user_enters_test123()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 197774000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks sign in button",
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.user_clicks_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 964000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user sees Forgot ID/Password",
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.user_sees_Forgot_ID_Password()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 552163000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already in home page",
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.user_is_already_in_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T01:21:37.613Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1492881000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HeaderStep_Definitions.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1584832000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1813942000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.FooterStep_Definitions.openBrowser()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Log in with invalid credential",
+        "description": "",
+        "id": "log-into-bank-of-america-account;log-in-with-invalid-credential;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 114730000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.FooterStep_Definitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 47000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 31000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HeaderStep_Definitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 880855000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters first id \"kahina\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kahina\"",
+                  "offset": 21
+                }
+              ],
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.user_enters_first_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 258599000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters  second password \"\u003cPassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cPassword\u003e\"",
+                  "offset": 29
+                }
+              ],
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.user_enters_second_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130259000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user clicks sign in button",
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.user_clicks_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1300000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user sees Forgot ID/Password",
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.user_sees_Forgot_ID_Password()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 371051000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already in home page",
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.user_is_already_in_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T01:21:44.459Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1574483000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HeaderStep_Definitions.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1591551000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2021574000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.FooterStep_Definitions.openBrowser()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Log in with invalid credential",
+        "description": "",
+        "id": "log-into-bank-of-america-account;log-in-with-invalid-credential;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 118268000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.FooterStep_Definitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 54000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 39000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HeaderStep_Definitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 925289000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters first id \"pnt\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pnt\"",
+                  "offset": 21
+                }
+              ],
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.user_enters_first_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 297826000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters  second password \"\u003cPassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cPassword\u003e\"",
+                  "offset": 29
+                }
+              ],
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.user_enters_second_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81178000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user clicks sign in button",
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.user_clicks_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1342000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user sees Forgot ID/Password",
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.user_sees_Forgot_ID_Password()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 862446000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already in home page",
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.user_is_already_in_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T01:21:51.451Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1411173000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HeaderStep_Definitions.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1669445000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2117954000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.FooterStep_Definitions.openBrowser()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Log in with invalid credential",
+        "description": "",
+        "id": "log-into-bank-of-america-account;log-in-with-invalid-credential;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 117269000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.FooterStep_Definitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 55000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 33000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HeaderStep_Definitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 459459000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters first id \"marufa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"marufa\"",
+                  "offset": 21
+                }
+              ],
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.user_enters_first_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 271210000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters  second password \"\u003cPassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cPassword\u003e\"",
+                  "offset": 29
+                }
+              ],
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.user_enters_second_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 85350000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user clicks sign in button",
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.user_clicks_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 977000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user sees Forgot ID/Password",
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.user_sees_Forgot_ID_Password()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 606063000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already in home page",
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.user_is_already_in_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T01:21:58.459Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1458781000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HeaderStep_Definitions.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1682248000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1916703000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.FooterStep_Definitions.openBrowser()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Log in with invalid credential",
+        "description": "",
+        "id": "log-into-bank-of-america-account;log-in-with-invalid-credential;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 112998000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.FooterStep_Definitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 33000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 12000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HeaderStep_Definitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 847665000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters first id \"Asif\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Asif\"",
+                  "offset": 21
+                }
+              ],
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.user_enters_first_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 307592000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters  second password \"\u003cPassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cPassword\u003e\"",
+                  "offset": 29
+                }
+              ],
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.user_enters_second_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92544000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user clicks sign in button",
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.user_clicks_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1478000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user sees Forgot ID/Password",
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.user_sees_Forgot_ID_Password()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1008220000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already in home page",
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.user_is_already_in_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T01:22:05.493Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1566193000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HeaderStep_Definitions.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1959218000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1996976000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.FooterStep_Definitions.openBrowser()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Log in with invalid credential",
+        "description": "",
+        "id": "log-into-bank-of-america-account;log-in-with-invalid-credential;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 121950000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.FooterStep_Definitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 51000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 38000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HeaderStep_Definitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 432455000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters first id \"shahana\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"shahana\"",
+                  "offset": 21
+                }
+              ],
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.user_enters_first_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 344403000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters  second password \"\u003cPassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cPassword\u003e\"",
+                  "offset": 29
+                }
+              ],
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.user_enters_second_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76049000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user clicks sign in button",
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.user_clicks_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 537000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user sees Forgot ID/Password",
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.user_sees_Forgot_ID_Password()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 647168000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already in home page",
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.user_is_already_in_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T01:22:13.011Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1815241000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HeaderStep_Definitions.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1840756000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2040126000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.FooterStep_Definitions.openBrowser()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Log in with invalid credential",
+        "description": "",
+        "id": "log-into-bank-of-america-account;log-in-with-invalid-credential;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 151963000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.FooterStep_Definitions.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 29000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 12000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HeaderStep_Definitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1061818000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user enters first id \"team\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"team\"",
+                  "offset": 21
+                }
+              ],
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.user_enters_first_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 340046000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters  second password \"\u003cPassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cPassword\u003e\"",
+                  "offset": 29
+                }
+              ],
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.user_enters_second_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111778000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user clicks sign in button",
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.user_clicks_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 777000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user sees Forgot ID/Password",
+            "match": {
+              "location": "step_definitions.BankOfAmericaLogInStep_Definition.user_sees_Forgot_ID_Password()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "log into bank of america account",
+    "description": "     I try to login with invalid invalid credential",
+    "id": "log-into-bank-of-america-account",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/BankOfAmericaLogIn.feature",
+    "tags": []
+  }
+]

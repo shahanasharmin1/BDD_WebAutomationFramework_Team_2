@@ -1,0 +1,1166 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 21653000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I\u0027m in AT\u0026T  deals page",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_m_in_AT_T_deals_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T03:40:57.128Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3760602000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "validate tv_internet page",
+        "description": "",
+        "id": "explore-at\u0026t-home-page;validate-tv-internet-page",
+        "after": [
+          {
+            "result": {
+              "duration": 114936000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1128149000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select tv\u0026internet deals",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_select_tv_internet_deals()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 249004000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "hover to select internet_tv",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.hover_to_select_internet_tv()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1417718000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click internet_tv link",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_click_internet_tv_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 34371000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the page should open",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.the_page_should_open()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1989000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I\u0027m in AT\u0026T  deals page",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_m_in_AT_T_deals_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T03:41:03.923Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3075627000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "signInForSupport",
+        "description": "",
+        "id": "explore-at\u0026t-home-page;signinforsupport",
+        "after": [
+          {
+            "result": {
+              "duration": 106357000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2557292000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I select Support",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_select_Support()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 777679000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click SingIn",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_click_SingIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1816641000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I enter UserId",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_enter_UserId()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89429000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter Password",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_enter_Password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 602108000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click signIn Button",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_click_signIn_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41930000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should see error message",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_should_see_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1174000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I\u0027m in AT\u0026T  deals page",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_m_in_AT_T_deals_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T03:41:13.001Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3400595000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "get prepaid apple phone plan",
+        "description": "",
+        "id": "explore-at\u0026t-home-page;get-prepaid-apple-phone-plan",
+        "after": [
+          {
+            "result": {
+              "duration": 111728000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1651999000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I select prepaid link",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_select_prepaid_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 827639000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I  choose phone plan;",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_choose_phone_plan()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 342151000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I explore apple options",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_explore_apple_options()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18628000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I can see the offers for apple",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_can_see_the_offers_for_apple()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 951000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I\u0027m in AT\u0026T  deals page",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_m_in_AT_T_deals_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T03:41:19.367Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3363043000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "explore wireless deals",
+        "description": "",
+        "id": "explore-at\u0026t-home-page;explore-wireless-deals",
+        "after": [
+          {
+            "result": {
+              "duration": 105428000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1353418000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I  choose Wireless",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_choose_Wireless()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 280663000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I mouse hover to wireless deals",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_mouse_hover_to_wireless_deals()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 601136000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I click wireless deals",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_click_wireless_deals()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 583000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I can see all the deals",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_can_see_all_the_deals()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1020000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I\u0027m in AT\u0026T  deals page",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_m_in_AT_T_deals_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T03:41:25.082Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4074087000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "look up for the tv options",
+        "description": "",
+        "id": "explore-at\u0026t-home-page;look-up-for-the-tv-options",
+        "after": [
+          {
+            "result": {
+              "duration": 143563000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2544302000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I select Tv link",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_select_Tv_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17262000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I mouse hover to channel lineup",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_mouse_hover_to_channel_lineup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2806684000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I click channel lineUp",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_click_channel_lineUp()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8344000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I should get the channels option",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_should_get_the_channels_option()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 616000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I\u0027m in AT\u0026T  deals page",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_m_in_AT_T_deals_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T03:41:34.684Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3520419000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "prepaid deals page",
+        "description": "",
+        "id": "explore-at\u0026t-home-page;prepaid-deals-page",
+        "after": [
+          {
+            "result": {
+              "duration": 102754000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1747876000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I select prepaid tab",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_select_prepaid_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3144000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I wait some time",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_wait_some_time()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 317317000,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I click prepaid deals",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_click_prepaid_deals()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 666000,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I should see the page opened",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_should_see_the_page_opened()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 682000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I\u0027m in AT\u0026T  deals page",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_m_in_AT_T_deals_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T03:41:40.384Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3999338000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "validate accessories in wireless page",
+        "description": "",
+        "id": "explore-at\u0026t-home-page;validate-accessories-in-wireless-page",
+        "after": [
+          {
+            "result": {
+              "duration": 614258000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1549847000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I choose wireless link",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_choose_wireless_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1767945000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I click on accessories",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_click_on_accessories()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 63830000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "accessories page is displayed",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.accessories_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 928000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I\u0027m in AT\u0026T  deals page",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_m_in_AT_T_deals_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T03:41:48.390Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4112779000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 58,
+        "name": "validate sports page",
+        "description": "",
+        "id": "explore-at\u0026t-home-page;validate-sports-page",
+        "after": [
+          {
+            "result": {
+              "duration": 115771000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2876175000,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I select tv link",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_select_tv_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1643136000,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I click on sport",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_click_on_sport()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5589000,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "sport page should display",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.sport_page_should_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 855000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I\u0027m in AT\u0026T  deals page",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_m_in_AT_T_deals_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T03:41:57.151Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3294233000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 64,
+        "name": "validate internet plan page",
+        "description": "",
+        "id": "explore-at\u0026t-home-page;validate-internet-plan-page",
+        "after": [
+          {
+            "result": {
+              "duration": 122632000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1412070000,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I select internet tab",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_select_internet_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1350638000,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I click plan and price",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_click_plan_and_price()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6728000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "the page should display",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.the_page_should_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1016000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I\u0027m in AT\u0026T  deals page",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_m_in_AT_T_deals_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T03:42:03.347Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3668740000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 70,
+        "name": "validate wifi technologies page",
+        "description": "",
+        "id": "explore-at\u0026t-home-page;validate-wifi-technologies-page",
+        "after": [
+          {
+            "result": {
+              "duration": 109651000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1432358000,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "I select internet",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_select_internet()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2115316000,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "I click wifi technologies",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_click_wifi_technologies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 611000,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "page should display",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.page_should_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 720000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I\u0027m in AT\u0026T  deals page",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_m_in_AT_T_deals_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T03:42:10.684Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4662552000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 76,
+        "name": "validate move service page",
+        "description": "",
+        "id": "explore-at\u0026t-home-page;validate-move-service-page",
+        "after": [
+          {
+            "result": {
+              "duration": 110072000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 133691000,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "I select account tab",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_select_account_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122933000,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "I hover to move my services element",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_hover_to_move_my_services_element()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1225306000,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "I click move my services",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_click_move_my_services()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 794000,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "the page should displays",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.the_page_should_displays()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Explore AT\u0026T home page",
+    "description": "  I want to  check all the pages from AT\u0026T home page",
+    "id": "explore-at\u0026t-home-page",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/at_tHome.feature",
+    "tags": []
+  }
+]
