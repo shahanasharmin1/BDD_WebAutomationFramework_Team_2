@@ -1,0 +1,96 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-26T04:45:02.103Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalStateException: The driver executable does not exist: /Users/abidur/Documents/BDD_WebAutomationFramework_Team_2/Ebay/BrowserDriver/mac/chromedriver\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:585)\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\n\tat common.WebAPI.getLocalDriver(WebAPI.java:70)\n\tat common.WebAPI.setUp(WebAPI.java:54)\n\tat step_definitions.SearchOnEbay_Step_Definition.openBrowser(SearchOnEbay_Step_Definition.java:17)\n",
+              "duration": 105755000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Search product",
+        "description": "",
+        "id": "search-product-on-ebay-.;search-product",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\n\tat common.WebAPI.cleanUp(WebAPI.java:40)\n\tat step_definitions.SearchOnEbay_Step_Definition.closeBrowser(SearchOnEbay_Step_Definition.java:21)\n",
+              "duration": 371000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1466000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I am at Ebay Home Page",
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.i_am_at_Ebay_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 982000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I Enter Maven Book in search input field",
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.i_Enter_Maven_Book_in_search_input_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 836000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I Click search button",
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.i_Click_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 815000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I should see the desired Maven Book",
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.i_should_see_the_desired_Maven_Book()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search product on ebay .",
+    "description": "  As user i am locating a book and adding to cart.",
+    "id": "search-product-on-ebay-.",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/EbayHome.feature",
+    "tags": []
+  }
+]
