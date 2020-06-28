@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 13897000,
+              "duration": 19416000,
               "status": "passed"
             },
             "line": 3,
@@ -24,26 +24,44 @@
         ]
       },
       {
-        "start_timestamp": "2020-06-21T02:04:18.292Z",
+        "start_timestamp": "2020-06-25T23:10:00.358Z",
         "before": [
           {
             "result": {
-              "duration": 2275228000,
+              "duration": 3034373000,
               "status": "passed"
             },
             "match": {
               "location": "step_definitions.SearchOnCigna_StepDefinition.openBrowser()"
             }
+          },
+          {
+            "result": {
+              "duration": 1952645000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Basic_StepDefinition.openBrowser()"
+            }
           }
         ],
-        "line": 16,
-        "name": "scroll till the end of the cigna homepage",
+        "line": 32,
+        "name": "I hover on  Header Object using Parameter",
         "description": "",
-        "id": "as-a-customer-i-want-to-explore-cigna-homepage;scroll-till-the-end-of-the-cigna-homepage",
+        "id": "as-a-customer-i-want-to-explore-cigna-homepage;i-hover-on--header-object-using-parameter;;2",
         "after": [
           {
             "result": {
-              "duration": 80298000,
+              "duration": 80827000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Basic_StepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 35000,
               "status": "passed"
             },
             "match": {
@@ -52,36 +70,413 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 9940000,
+              "duration": 24069000,
               "status": "passed"
             },
-            "line": 17,
-            "name": "i scroll till the end byPixel",
+            "line": 27,
+            "name": "I need to hover on Individuals and Families in header part",
             "match": {
-              "location": "step_definitions.SearchOnCigna_StepDefinition.i_scroll_till_the_end_byPixel()"
+              "location": "step_definitions.Basic_StepDefinition.i_need_to_hover_on_Individuals_and_Families_in_header_part()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 29742000,
+              "duration": 1055000,
               "status": "passed"
             },
-            "line": 18,
-            "name": "I will see the the page are scrolled tillend",
+            "line": 28,
+            "name": "I should see \"Individuals and Families\" results",
             "match": {
-              "location": "step_definitions.SearchOnCigna_StepDefinition.i_will_see_the_the_page_are_scrolled_tillend()"
+              "arguments": [
+                {
+                  "val": "\"Individuals and Families\"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.Basic_StepDefinition.i_should_see_results(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: Search Result not Displayed expected:\u003c[Cigna International]\u003e but was:\u003c[]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat home.BasicPage.UservalidationCignaInternationmalTextelement(BasicPage.java:66)\n\tat step_definitions.Basic_StepDefinition.i_am_able_to_validate(Basic_StepDefinition.java:73)\n\tat ✽.I am able to validate(file:///Users/tanjinarahman/IdeaProjects/BDD_WebAutomationFramework_Team_2/Cigna/src/main/java/features/BasicHomePage.feature:29)\n",
+              "duration": 29655000,
+              "status": "failed"
+            },
+            "line": 29,
+            "name": "I am able to validate",
+            "match": {
+              "location": "step_definitions.Basic_StepDefinition.i_am_able_to_validate()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@Test3"
+            "name": "@Test14"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1109000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am at cigna.com homePage",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_at_cigna_com_homePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-25T23:10:05.610Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1758816000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2379988000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Basic_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "I hover on  Header Object using Parameter",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-cigna-homepage;i-hover-on--header-object-using-parameter;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 81690000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Basic_StepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 31000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 38406000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I need to hover on Employers and Brokers in header part",
+            "match": {
+              "location": "step_definitions.Basic_StepDefinition.i_need_to_hover_on_Employers_and_Brokers_in_header_part()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 797000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I should see \"Employers and Brokers \" results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Employers and Brokers \"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.Basic_StepDefinition.i_should_see_results(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25288000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I am able to validate",
+            "match": {
+              "location": "step_definitions.Basic_StepDefinition.i_am_able_to_validate()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test14"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 814000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am at cigna.com homePage",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_at_cigna_com_homePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-25T23:10:09.903Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1765118000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1982312000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Basic_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "I hover on  Header Object using Parameter",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-cigna-homepage;i-hover-on--header-object-using-parameter;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 80150000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Basic_StepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 43000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14330000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I need to hover on Health Care Providers in header part",
+            "match": {
+              "location": "step_definitions.Basic_StepDefinition.i_need_to_hover_on_Health_Care_Providers_in_header_part()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 802000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I should see \"Health Care Providers \" results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Health Care Providers \"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.Basic_StepDefinition.i_should_see_results(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.junit.ComparisonFailure: Search Result not Displayed expected:\u003c[Cigna International]\u003e but was:\u003c[]\u003e\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat home.BasicPage.UservalidationCignaInternationmalTextelement(BasicPage.java:66)\n\tat step_definitions.Basic_StepDefinition.i_am_able_to_validate(Basic_StepDefinition.java:73)\n\tat ✽.I am able to validate(file:///Users/tanjinarahman/IdeaProjects/BDD_WebAutomationFramework_Team_2/Cigna/src/main/java/features/BasicHomePage.feature:29)\n",
+              "duration": 19356000,
+              "status": "failed"
+            },
+            "line": 29,
+            "name": "I am able to validate",
+            "match": {
+              "location": "step_definitions.Basic_StepDefinition.i_am_able_to_validate()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test14"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 799000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am at cigna.com homePage",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_at_cigna_com_homePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-25T23:10:13.773Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2014943000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2015485000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Basic_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "I hover on  Header Object using Parameter",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-cigna-homepage;i-hover-on--header-object-using-parameter;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 82658000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Basic_StepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 32000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 246960000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I need to hover on About Us in header part",
+            "match": {
+              "location": "step_definitions.Basic_StepDefinition.i_need_to_hover_on_About_Us_in_header_part()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 868000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I should see \"About Us\" results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"About Us\"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.Basic_StepDefinition.i_should_see_results(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62389000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I am able to validate",
+            "match": {
+              "location": "step_definitions.Basic_StepDefinition.i_am_able_to_validate()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test14"
           }
         ]
       }
@@ -90,7 +485,7 @@
     "description": "",
     "id": "as-a-customer-i-want-to-explore-cigna-homepage",
     "keyword": "Feature",
-    "uri": "file:src/main/java/features/CignaHome.feature",
+    "uri": "file:src/main/java/features/BasicHomePage.feature",
     "tags": []
   }
 ]

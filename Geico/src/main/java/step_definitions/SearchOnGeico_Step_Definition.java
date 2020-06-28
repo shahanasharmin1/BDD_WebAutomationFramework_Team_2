@@ -38,8 +38,6 @@ public class SearchOnGeico_Step_Definition extends WebAPI {
     public void i_will_see_the_expected_result() {
         homePage.validateboatWebelement();
     }
-
-
     @When("I click on Auto Tab and I set the index {int}")
     public void i_click_on_Auto_Tab_and_I_set_the_index(Integer int1) {
        homePage. dropDownAutoTab();
@@ -49,36 +47,21 @@ public class SearchOnGeico_Step_Definition extends WebAPI {
         getInitElements();
        homePage. validatetext("Access Your Policy");
     }
-
     @When("i scroll down the webPage byPixel")
     public void i_scroll_down_the_webPage_byPixel() {
-        homePage.scrollDownTheWebPage();
+        homePage.thescrollDownThewebPage();
     }
     @Then("I will see the the page are scrolled down")
     public void i_will_see_the_the_page_are_scrolled_down() {
         getInitElements();
         homePage.validatetext("Access Your Policy");
     }
-
-
     @When("i scroll till the end")
     public void i_scroll_till_the_end() {
-        homePage.scrollDownTillEnd();
+        homePage.theScrollDownTillEnd();
     }
     @Then("I will see the the page are scrolled tillend")
     public void i_will_see_the_the_page_are_scrolled_tillend() {
         homePage.validatetext("Access Your Policy");
     }
-
-
-
-
-
-
-
-
-
-
-
-
 }

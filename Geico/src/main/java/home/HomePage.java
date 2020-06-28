@@ -9,7 +9,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.ui.Select;
-
 import static webelements.Webelements.*;
 
 public class HomePage extends WebAPI {
@@ -18,15 +17,13 @@ public class HomePage extends WebAPI {
     WebElement boatWebelement;
     @FindBy(how= How.CSS,using=getBoatelement)
     WebElement getBoatwebelement;
-
     @FindBy(how = How.CSS, using = getAutoTab)
     WebElement getAutoTabwebelement;
-
     @FindBy(how = How.CSS, using =text)
     WebElement textwebelement;
 
     public void userclickonboatWebelement(){
-        boatWebelement.click();
+        clickByCSS(boatelement);
     }
     public void validateboatWebelement(){
         String expectedText=" Boat";
@@ -38,34 +35,17 @@ public class HomePage extends WebAPI {
         }
     }
     public void dropDownAutoTab(){
-        Select select=new Select(getAutoTabwebelement);
-        select.selectByIndex(4);
+        selectOptionByIndex(getAutoTabwebelement,"4");
     }
-
  public void validatetext(String expectedresult){
-
      String actualResult = textwebelement.getText();
      Assert.assertEquals("Search Result not Displayed", expectedresult, actualResult);
-
 }
-    public void scrollDownTheWebPage() {
-        JavascriptExecutor js = (JavascriptExecutor) driver;
-        js.executeScript("window.scrollBy(0,1000)");
+    public void thescrollDownThewebPage() {
+        scrollDownTheWebPage();
+
     }
-
-    public void scrollDownTillEnd()  {
-        JavascriptExecutor js1 = (JavascriptExecutor) driver;
-        js1.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+    public void theScrollDownTillEnd()  {
+       scrollDownTillEnd();
     }
-
-
-
-
-
-
-
-
-
-
-
 }

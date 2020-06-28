@@ -1,18 +1,91 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/main/java/features/BoaHome.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/main/java/features/BasicHome.feature");
 formatter.feature({
-  "name": "As a customer I want to click on a LogIn  button of Bank Of America",
+  "name": "I want to explore the whole elements of bank of america Homepage",
   "description": "",
   "keyword": "Feature"
 });
-formatter.scenario({
-  "name": "Click On log In Button at bank of America",
+formatter.scenarioOutline({
+  "name": "I search Header Object using Parameter",
   "description": "",
-  "keyword": "Scenario",
+  "keyword": "Scenario Outline",
   "tags": [
     {
-      "name": "@Test1"
+      "name": "@Test21"
     }
   ]
+});
+formatter.step({
+  "name": "I am already in BOA Home Page",
+  "keyword": "When "
+});
+formatter.step({
+  "name": "I need to click \u003cheaderItems\u003e in header part",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "I should see \u003cexpected\u003e results",
+  "keyword": "And "
+});
+formatter.step({
+  "name": "I am able to validate",
+  "keyword": "Then "
+});
+formatter.examples({
+  "name": "",
+  "description": "",
+  "keyword": "Examples",
+  "rows": [
+    {
+      "cells": [
+        "headerItems",
+        "expected"
+      ]
+    },
+    {
+      "cells": [
+        "Personal",
+        "\"Personal\""
+      ]
+    },
+    {
+      "cells": [
+        "Small Business",
+        "\"Small Business\""
+      ]
+    },
+    {
+      "cells": [
+        "Wealth Management",
+        "\"Wealth Management \""
+      ]
+    },
+    {
+      "cells": [
+        "Business and Institution",
+        "\"Business and Institution\""
+      ]
+    },
+    {
+      "cells": [
+        "Security",
+        "\"Security\""
+      ]
+    },
+    {
+      "cells": [
+        "About Us",
+        "\"About Us\""
+      ]
+    }
+  ]
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.before({
   "status": "passed"
@@ -27,26 +100,443 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.scenario({
+  "name": "I search Header Object using Parameter",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@Test21"
+    }
+  ]
+});
 formatter.step({
-  "name": "i click on the log In Button",
+  "name": "I am already in BOA Home Page",
   "keyword": "When "
 });
 formatter.match({
-  "location": "step_definitions.SearchOnBoa_StepDefinition.i_click_on_the_log_In_Button()"
+  "location": "step_definitions.BasicHomePage_StepDefinition.i_am_already_in_BOA_Home_Page()"
 });
 formatter.result({
-  "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d83.0.4103.106)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Tanjinas-MBP.home\u0027, ip: \u0027fe80:0:0:0:1c00:7be:87c0:344a%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.5\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: /var/folders/0_/rvx8j6156p9...}, goog:chromeOptions: {debuggerAddress: localhost:53011}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 3f0eff699f593cafbcaf09a64c3fc721\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\n\tat home.HomePage.clickLogInButton(HomePage.java:23)\n\tat step_definitions.SearchOnBoa_StepDefinition.i_click_on_the_log_In_Button(SearchOnBoa_StepDefinition.java:36)\n\tat ✽.i click on the log In Button(file:///Users/tanjinarahman/IdeaProjects/BDD_WebAutomationFramework_Team_2/BankOfAmerica/src/main/java/features/BoaHome.feature:6)\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
-  "name": "i am able to see  log in button clicked",
+  "name": "I need to click Personal in header part",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "step_definitions.BasicHomePage_StepDefinition.i_need_to_click_Personal_in_header_part()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should see \"Personal\" results",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "step_definitions.BasicHomePage_StepDefinition.i_should_see_results(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I am able to validate",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_able_to_see_log_in_button_clicked()"
+  "location": "step_definitions.BasicHomePage_StepDefinition.i_am_able_to_validate()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I go on bankofamerica.com",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "step_definitions.SearchOnBoa_StepDefinition.i_go_on_bankofamerica_com()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "I search Header Object using Parameter",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@Test21"
+    }
+  ]
+});
+formatter.step({
+  "name": "I am already in BOA Home Page",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "step_definitions.BasicHomePage_StepDefinition.i_am_already_in_BOA_Home_Page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I need to click Small Business in header part",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "step_definitions.BasicHomePage_StepDefinition.i_need_to_click_Small_Business_in_header_part()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should see \"Small Business\" results",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "step_definitions.BasicHomePage_StepDefinition.i_should_see_results(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I am able to validate",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "step_definitions.BasicHomePage_StepDefinition.i_am_able_to_validate()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I go on bankofamerica.com",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "step_definitions.SearchOnBoa_StepDefinition.i_go_on_bankofamerica_com()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "I search Header Object using Parameter",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@Test21"
+    }
+  ]
+});
+formatter.step({
+  "name": "I am already in BOA Home Page",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "step_definitions.BasicHomePage_StepDefinition.i_am_already_in_BOA_Home_Page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I need to click Wealth Management in header part",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "step_definitions.BasicHomePage_StepDefinition.i_need_to_click_Wealth_Management_in_header_part()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should see \"Wealth Management \" results",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "step_definitions.BasicHomePage_StepDefinition.i_should_see_results(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I am able to validate",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "step_definitions.BasicHomePage_StepDefinition.i_am_able_to_validate()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I go on bankofamerica.com",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "step_definitions.SearchOnBoa_StepDefinition.i_go_on_bankofamerica_com()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "I search Header Object using Parameter",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@Test21"
+    }
+  ]
+});
+formatter.step({
+  "name": "I am already in BOA Home Page",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "step_definitions.BasicHomePage_StepDefinition.i_am_already_in_BOA_Home_Page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I need to click Business and Institution in header part",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "step_definitions.BasicHomePage_StepDefinition.i_need_to_click_Business_and_Institution_in_header_part()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should see \"Business and Institution\" results",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "step_definitions.BasicHomePage_StepDefinition.i_should_see_results(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I am able to validate",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "step_definitions.BasicHomePage_StepDefinition.i_am_able_to_validate()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I go on bankofamerica.com",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "step_definitions.SearchOnBoa_StepDefinition.i_go_on_bankofamerica_com()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "I search Header Object using Parameter",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@Test21"
+    }
+  ]
+});
+formatter.step({
+  "name": "I am already in BOA Home Page",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "step_definitions.BasicHomePage_StepDefinition.i_am_already_in_BOA_Home_Page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I need to click Security in header part",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "step_definitions.BasicHomePage_StepDefinition.i_need_to_click_Security_in_header_part()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should see \"Security\" results",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "step_definitions.BasicHomePage_StepDefinition.i_should_see_results(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I am able to validate",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "step_definitions.BasicHomePage_StepDefinition.i_am_able_to_validate()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I go on bankofamerica.com",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "step_definitions.SearchOnBoa_StepDefinition.i_go_on_bankofamerica_com()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "I search Header Object using Parameter",
+  "description": "",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "name": "@Test21"
+    }
+  ]
+});
+formatter.step({
+  "name": "I am already in BOA Home Page",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "step_definitions.BasicHomePage_StepDefinition.i_am_already_in_BOA_Home_Page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I need to click About Us in header part",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "step_definitions.BasicHomePage_StepDefinition.i_need_to_click_About_Us_in_header_part()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I should see \"About Us\" results",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "step_definitions.BasicHomePage_StepDefinition.i_should_see_results(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "I am able to validate",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "step_definitions.BasicHomePage_StepDefinition.i_am_able_to_validate()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
 });
 formatter.after({
   "status": "passed"
