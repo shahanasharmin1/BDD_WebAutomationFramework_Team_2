@@ -3,30 +3,30 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-06-20T03:56:41.085Z",
+        "start_timestamp": "2020-06-26T23:52:43.808Z",
         "before": [
           {
             "result": {
-              "duration": 5636534000,
+              "duration": 6841987700,
               "status": "passed"
             },
             "match": {
-              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+              "location": "step_definitions.SearchOnHBO_Step_Definition.openBrowser()"
             }
           }
         ],
         "line": 4,
-        "name": "Search Game of Thrones in HBO",
+        "name": "SignIn button",
         "description": "",
-        "id": "search-shows-on-hbo;search-game-of-thrones-in-hbo",
+        "id": "as-a-customer-i-want-to-explore-hbo;signin-button",
         "after": [
           {
             "result": {
-              "duration": 684174300,
+              "duration": 692051100,
               "status": "passed"
             },
             "match": {
-              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+              "location": "step_definitions.SearchOnHBO_Step_Definition.closeBrowser()"
             }
           }
         ],
@@ -35,58 +35,895 @@
         "steps": [
           {
             "result": {
-              "duration": 13663900,
+              "duration": 2994600,
               "status": "passed"
             },
             "line": 5,
-            "name": "I am at HBO HomePage",
+            "name": "I click on logIn button",
             "match": {
-              "location": "step_definitions.SearchOnGeico_Step_Definition.i_am_at_HBO_HomePage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 7222769700,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I click on search Field",
-            "match": {
-              "location": "step_definitions.SearchOnGeico_Step_Definition.i_click_on_search_Field()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 658396700,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I Search Game Of Thrones",
-            "match": {
-              "location": "step_definitions.SearchOnGeico_Step_Definition.i_Search_Game_Of_Thrones()"
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_click_on_logIn_button()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 975600,
+              "duration": 39802800,
               "status": "passed"
             },
-            "line": 8,
-            "name": "I should be able to see results for Game of Thrones",
+            "line": 6,
+            "name": "I am able to see signIn options",
             "match": {
-              "location": "step_definitions.SearchOnGeico_Step_Definition.i_should_be_able_to_see_results_for_Game_of_Thrones()"
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_am_able_to_see_signIn_options()"
             },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T23:52:51.497Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6478862700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "I search Header using Parameter",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-hbo;i-search-header-using-parameter;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 713970100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6870500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am at HBO homepage",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_am_at_HBO_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1491551400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I need to clickSERIESin header part",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_need_to_clickSERIESin_header_part()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should seeSERIESresults",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_should_seeSERIESresults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4125800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am able to validate the item",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_am_able_to_validate_the_item()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T23:53:00.229Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6887365200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "I search Header using Parameter",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-hbo;i-search-header-using-parameter;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1154281200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1324500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am at HBO homepage",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_am_at_HBO_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 588207700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I need to clickMOVIESin header part",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_need_to_clickMOVIESin_header_part()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should seeMOVIESresults",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_should_seeMOVIESresults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am able to validate the item",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_am_able_to_validate_the_item()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T23:53:08.868Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5936570100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "I search Header using Parameter",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-hbo;i-search-header-using-parameter;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 710731200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1995600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am at HBO homepage",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_am_at_HBO_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 512549100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I need to clickSPECIALSin header part",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_need_to_clickSPECIALSin_header_part()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should seeSPECIALSresults",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_should_seeSPECIALSresults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1369700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am able to validate the item",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_am_able_to_validate_the_item()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T23:53:16.043Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5801270200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "I search Header using Parameter",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-hbo;i-search-header-using-parameter;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 1135521100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 996400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am at HBO homepage",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_am_at_HBO_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 652159600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I need to clickSPORTSin header part",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_need_to_clickSPORTSin_header_part()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 343000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should seeSPORTSresults",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_should_seeSPORTSresults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am able to validate the item",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_am_able_to_validate_the_item()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T23:53:23.644Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5750177100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "I search Header using Parameter",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-hbo;i-search-header-using-parameter;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 1188433600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am at HBO homepage",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_am_at_HBO_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 544976800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I need to clickKIDSin header part",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_need_to_clickKIDSin_header_part()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2084000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should seeKIDSresults",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_should_seeKIDSresults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am able to validate the item",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_am_able_to_validate_the_item()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T23:53:31.148Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5497957500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "scroll Down the HBO homepage",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-hbo;scroll-down-the-hbo-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 1594402100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 134321800,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "i scroll down the webPage byPixel",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_scroll_down_the_webPage_byPixel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I will see the the page are scrolled down",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_will_see_the_the_page_are_scrolled_down()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T23:53:38.384Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5839535200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "scroll till the end of the HBO homepage",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-hbo;scroll-till-the-end-of-the-hbo-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 722548600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 404125400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "i scroll till the end",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_scroll_till_the_end()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 996300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I will see the the page are scrolled tillend",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_will_see_the_the_page_are_scrolled_tillend()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test4"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T23:53:45.362Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6094040600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "click on Logo",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-hbo;click-on-logo",
+        "after": [
+          {
+            "result": {
+              "duration": 1328379700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I click on HBO Logo",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_click_on_HBO_Logo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I will be able to get it",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_will_be_able_to_get_it()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test5"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T23:53:52.795Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6385056000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "hover on search button",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-hbo;hover-on-search-button",
+        "after": [
+          {
+            "result": {
+              "duration": 762197500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1793600,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I click search button",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_click_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I will the all the items in the search icon",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_will_the_all_the_items_in_the_search_icon()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test6"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T23:53:59.953Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5856401800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "click on Drop Down Button of All Series",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-hbo;click-on-drop-down-button-of-all-series",
+        "after": [
+          {
+            "result": {
+              "duration": 695874100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I click on the Drop down button of All Series",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_click_on_the_Drop_down_button_of_All_Series()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I should get all the options of it",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_should_get_all_the_options_of_it()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test7"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T23:54:06.521Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6015336400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 43,
+        "name": "click on Image",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-hbo;click-on-image",
+        "after": [
+          {
+            "result": {
+              "duration": 704994600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 997100,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I click on Image",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_click_on_Image()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997700,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I am able to validate the HBO Homepage",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_am_able_to_validate_the_HBO_Homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test8"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T23:54:13.253Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6101607800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "As a customer i want to find out free Episodes",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-hbo;as-a-customer-i-want-to-find-out-free-episodes",
+        "after": [
+          {
+            "result": {
+              "duration": 752785000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I click on it",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_click_on_it()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997100,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I can see see all Episodes of HBO",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_can_see_see_all_Episodes_of_HBO()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test9"
           }
         ]
       }
     ],
-    "name": "Search Shows on HBO",
-    "description": "  As a user i want to search Game of Thrones in HBO search bar.",
-    "id": "search-shows-on-hbo",
+    "name": "As a customer I want to explore HBO",
+    "description": "",
+    "id": "as-a-customer-i-want-to-explore-hbo",
     "keyword": "Feature",
     "uri": "file:src/main/java/features/HBOHome.feature",
     "tags": []

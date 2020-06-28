@@ -1,0 +1,1804 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-26T23:54:56.652Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5876758400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Log In with Invalid credential",
+        "description": "",
+        "id": "log-into-bank-of-america-account;log-in-with-invalid-credential",
+        "after": [
+          {
+            "result": {
+              "duration": 687696000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 54062500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already in BOA home page",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.user_is_already_in_BOA_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2306159300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters shamima",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.user_enters_shamima()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 667814600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters pl944985",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.user_enters_pl944985()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 369354500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks sign in button",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.user_clicks_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 995600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user sees Forgot ID/Password",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.user_sees_Forgot_ID_Password()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test1"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-26T23:55:06.802Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5528304200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Search credit cards using Parameter",
+        "description": "",
+        "id": "log-into-bank-of-america-account;search-credit-cards-using-parameter",
+        "after": [
+          {
+            "result": {
+              "duration": 1136870900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5337500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I Enter Items in search input field",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_Enter_Items_in_search_input_field(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "cash rewards credit cards"
+                ]
+              },
+              {
+                "cells": [
+                  "travel and airlines rewards credit card"
+                ]
+              },
+              {
+                "cells": [
+                  "lower interest rate cards"
+                ]
+              },
+              {
+                "cells": [
+                  "points rewards cards"
+                ]
+              },
+              {
+                "cells": [
+                  "cards to build or rebuild credit"
+                ]
+              },
+              {
+                "cells": [
+                  "cards for students"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I Click search button",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_Click_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1184100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should see Expected Items",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_should_see_Expected_Items(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "cash rewards credit cards"
+                ]
+              },
+              {
+                "cells": [
+                  "travel and airlines rewards credit card"
+                ]
+              },
+              {
+                "cells": [
+                  "lower interest rate cards"
+                ]
+              },
+              {
+                "cells": [
+                  "points rewards cards"
+                ]
+              },
+              {
+                "cells": [
+                  "cards to build or rebuild credit"
+                ]
+              },
+              {
+                "cells": [
+                  "cards for students"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test2"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-26T23:55:13.500Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5025893600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Scroll Down the BOA Homepage",
+        "description": "",
+        "id": "log-into-bank-of-america-account;scroll-down-the-boa-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 662919500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 360708100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I scroll down the webpage byPixel",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_scroll_down_the_webpage_byPixel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Then I will see the the page are scrolled down",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.then_I_will_see_the_the_page_are_scrolled_down()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test3"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-26T23:55:19.561Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4363447100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "scroll till the end of the BOA homepage",
+        "description": "",
+        "id": "log-into-bank-of-america-account;scroll-till-the-end-of-the-boa-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 691246300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 606357200,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "i scroll till the end",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_scroll_till_the_end()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1996000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I will see the the page are scrolled tillend",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_will_see_the_the_page_are_scrolled_tillend()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test4"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-26T23:55:25.241Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4967716600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 46,
+        "name": "I search Footer using Parameter",
+        "description": "",
+        "id": "log-into-bank-of-america-account;i-search-footer-using-parameter;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 643430700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1996900,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I am at BOA  homepage",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_at_BOA_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I need to clicklocationsin Footer part",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_need_to_clicklocationsin_Footer_part()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I should seelocationsresults",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_should_seelocationsresults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 410400,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I am able to validate the item",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_able_to_validate_the_item()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test5"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-26T23:55:30.885Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5237036700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "I search Footer using Parameter",
+        "description": "",
+        "id": "log-into-bank-of-america-account;i-search-footer-using-parameter;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 708175700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1029000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I am at BOA  homepage",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_at_BOA_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I need to clickcontact usin Footer part",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_need_to_clickcontact_usin_Footer_part()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I should seecontact usresults",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_should_seecontact_usresults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I am able to validate the item",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_able_to_validate_the_item()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test5"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-26T23:55:36.857Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5305865400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 48,
+        "name": "I search Footer using Parameter",
+        "description": "",
+        "id": "log-into-bank-of-america-account;i-search-footer-using-parameter;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 736361600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2989000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I am at BOA  homepage",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_at_BOA_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1002500,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I need to clickhelpin Footer part",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_need_to_clickhelpin_Footer_part()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1660300,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I should seehelpresults",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_should_seehelpresults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1167100,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I am able to validate the item",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_able_to_validate_the_item()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test5"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-26T23:55:42.917Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5415627400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "I search Footer using Parameter",
+        "description": "",
+        "id": "log-into-bank-of-america-account;i-search-footer-using-parameter;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 656868700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 996600,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I am at BOA  homepage",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_at_BOA_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 998200,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I need to clickaccessible bankingin Footer part",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_need_to_clickaccessible_bankingin_Footer_part()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I should seeaccessible bankingresults",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_should_seeaccessible_bankingresults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998700,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I am able to validate the item",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_able_to_validate_the_item()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test5"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-26T23:55:49.008Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5252726300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 50,
+        "name": "I search Footer using Parameter",
+        "description": "",
+        "id": "log-into-bank-of-america-account;i-search-footer-using-parameter;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 710341900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 997600,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I am at BOA  homepage",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_at_BOA_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I need to clickcareersin Footer part",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_need_to_clickcareersin_Footer_part()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I should seecareersresults",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_should_seecareersresults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I am able to validate the item",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_able_to_validate_the_item()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test5"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-26T23:55:54.981Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4561154300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 51,
+        "name": "I search Footer using Parameter",
+        "description": "",
+        "id": "log-into-bank-of-america-account;i-search-footer-using-parameter;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 1156200300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 205300,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I am at BOA  homepage",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_at_BOA_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997300,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I need to clickprivacy and securityin Footer part",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_need_to_clickprivacy_and_securityin_Footer_part()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I should seeprivacy and securityresults",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_should_seeprivacy_and_securityresults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I am able to validate the item",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_able_to_validate_the_item()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test5"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-26T23:56:00.711Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4221574400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "I search Footer using Parameter",
+        "description": "",
+        "id": "log-into-bank-of-america-account;i-search-footer-using-parameter;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 961396100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 997900,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I am at BOA  homepage",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_at_BOA_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I need to clickmcafeein Footer part",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_need_to_clickmcafeein_Footer_part()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1010900,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I should seemcafeeresults",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_should_seemcafeeresults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 995900,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I am able to validate the item",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_able_to_validate_the_item()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test5"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-26T23:56:05.909Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4977018800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 53,
+        "name": "I search Footer using Parameter",
+        "description": "",
+        "id": "log-into-bank-of-america-account;i-search-footer-using-parameter;;9",
+        "after": [
+          {
+            "result": {
+              "duration": 712724600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 997200,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I am at BOA  homepage",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_at_BOA_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I need to clicksitemapin Footer part",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_need_to_clicksitemapin_Footer_part()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997100,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I should seesitemapresults",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_should_seesitemapresults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1026000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I am able to validate the item",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_able_to_validate_the_item()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test5"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-26T23:56:11.610Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5019153400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 54,
+        "name": "I search Footer using Parameter",
+        "description": "",
+        "id": "log-into-bank-of-america-account;i-search-footer-using-parameter;;10",
+        "after": [
+          {
+            "result": {
+              "duration": 652773400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 994200,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I am at BOA  homepage",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_at_BOA_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I need to clickadvertising practicein Footer part",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_need_to_clickadvertising_practicein_Footer_part()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997300,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I should seeadvertising practiceresults",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_should_seeadvertising_practiceresults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I am able to validate the item",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_able_to_validate_the_item()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test5"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-26T23:56:17.294Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5006875500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 55,
+        "name": "I search Footer using Parameter",
+        "description": "",
+        "id": "log-into-bank-of-america-account;i-search-footer-using-parameter;;11",
+        "after": [
+          {
+            "result": {
+              "duration": 663482700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 994700,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I am at BOA  homepage",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_at_BOA_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997700,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I need to clickfeedbackin Footer part",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_need_to_clickfeedbackin_Footer_part()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I should seefeedbackresults",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_should_seefeedbackresults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I am able to validate the item",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_able_to_validate_the_item()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test5"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-26T23:56:22.982Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5551113000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 56,
+        "name": "I search Footer using Parameter",
+        "description": "",
+        "id": "log-into-bank-of-america-account;i-search-footer-using-parameter;;12",
+        "after": [
+          {
+            "result": {
+              "duration": 663850600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1994300,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I am at BOA  homepage",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_at_BOA_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997200,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I need to clickview full online banking sitein Footer part",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_need_to_clickview_full_online_banking_sitein_Footer_part()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997300,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I should seeview full online banking siteresults",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_should_seeview_full_online_banking_siteresults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I am able to validate the item",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_able_to_validate_the_item()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test5"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-26T23:56:29.209Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4888663300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 59,
+        "name": "HoverOn Home Loans",
+        "description": "",
+        "id": "log-into-bank-of-america-account;hoveron-home-loans",
+        "after": [
+          {
+            "result": {
+              "duration": 712482200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2827600,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I hover on Home Loans",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_hover_on_Home_Loans()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000400,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I click on a Home Loans",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_click_on_a_Home_Loans()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2061800,
+              "status": "passed"
+            },
+            "line": 62,
+            "name": "I will validate the Home Loan page",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_will_validate_the_Home_Loan_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test6"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-26T23:56:34.827Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5269704300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 65,
+        "name": "click on Auto Loans",
+        "description": "",
+        "id": "log-into-bank-of-america-account;click-on-auto-loans",
+        "after": [
+          {
+            "result": {
+              "duration": 674734500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 998100,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I click on Auto loans",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_click_on_Auto_loans()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 996300,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I can get infomation on how In can apply for the loan",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_can_get_infomation_on_how_In_can_apply_for_the_loan()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test7"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-26T23:56:40.785Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4961049800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 69,
+        "name": "Search mobile banking in search box",
+        "description": "",
+        "id": "log-into-bank-of-america-account;search-mobile-banking-in-search-box",
+        "after": [
+          {
+            "result": {
+              "duration": 721216800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2244800,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I am at BOA Home Page",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_at_BOA_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 996300,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "I enter mobile banking on the search box in homepage",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_enter_mobile_banking_on_the_search_box_in_homepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1995200,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "I click search button",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_click_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997100,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "I should see mobile banking",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_should_see_mobile_banking()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test8"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-26T23:56:46.485Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5281466300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 76,
+        "name": "click on BOA logo",
+        "description": "",
+        "id": "log-into-bank-of-america-account;click-on-boa-logo",
+        "after": [
+          {
+            "result": {
+              "duration": 703532700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1994100,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "I click on logo",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_click_on_logo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997900,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "I can validate the page",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_can_validate_the_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test9"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-26T23:56:52.483Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4662567000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 81,
+        "name": "click on Image",
+        "description": "",
+        "id": "log-into-bank-of-america-account;click-on-image",
+        "after": [
+          {
+            "result": {
+              "duration": 692786800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "I click on image",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_click_on_image()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "I am able to see the image",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_able_to_see_the_image()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test10"
+          }
+        ]
+      }
+    ],
+    "name": "Log into bank of america account",
+    "description": "",
+    "id": "log-into-bank-of-america-account",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/BoaHome.feature",
+    "tags": []
+  }
+]

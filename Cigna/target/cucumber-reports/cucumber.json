@@ -1,0 +1,1515 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 40148800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am at cigna.com homepage",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_at_cigna_com_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T23:24:27.934Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5990328300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Health Care Providers  in the homepage",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-cigna-homepage;health-care-providers--in-the-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 714686700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1733209300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on a  the Health Care Providers",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_click_on_a_the_Health_Care_Providers()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3939500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am able to see  the health care providers",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_able_to_see_the_health_care_providers()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test1"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 998500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am at cigna.com homepage",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_at_cigna_com_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T23:24:36.577Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4848635400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Scroll Down the Cigna Homepage",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-cigna-homepage;scroll-down-the-cigna-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 694435700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 237509300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I scroll down the webpage byPixel",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_scroll_down_the_webpage_byPixel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1651100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Then I will see the the page are scrolled down",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.then_I_will_see_the_the_page_are_scrolled_down()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test2"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2013700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am at cigna.com homepage",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_at_cigna_com_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T23:24:42.409Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4860300000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "scroll till the end of the Delta homepage",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-cigna-homepage;scroll-till-the-end-of-the-delta-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 736267400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 203644200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "i scroll till the end",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_scroll_till_the_end()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 996900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I will see the the page are scrolled tillend",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_will_see_the_the_page_are_scrolled_tillend()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test3"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 996500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am at cigna.com homepage",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_at_cigna_com_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T23:24:48.228Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4777630900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "I search Footer using Parameter",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-cigna-homepage;i-search-footer-using-parameter;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 673105000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 893100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I am at Aboutcigna  in the homepage",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_at_Aboutcigna_in_the_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1029800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I need to clickcompany profilein Footer part",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_need_to_clickcompany_profilein_Footer_part()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1030500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should seecompany profileresults",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_should_seecompany_profileresults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I am able to validate the item",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_able_to_validate_the_item()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test4"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 997400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am at cigna.com homepage",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_at_cigna_com_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T23:24:53.705Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4883916800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "I search Footer using Parameter",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-cigna-homepage;i-search-footer-using-parameter;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 686292800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I am at Aboutcigna  in the homepage",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_at_Aboutcigna_in_the_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I need to clickcareersin Footer part",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_need_to_clickcareersin_Footer_part()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3089300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should seecareersresults",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_should_seecareersresults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I am able to validate the item",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_able_to_validate_the_item()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test4"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 998800,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am at cigna.com homepage",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_at_cigna_com_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T23:24:59.293Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4599140000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "I search Footer using Parameter",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-cigna-homepage;i-search-footer-using-parameter;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 720082000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 996400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I am at Aboutcigna  in the homepage",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_at_Aboutcigna_in_the_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I need to clicknewsroomin Footer part",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_need_to_clicknewsroomin_Footer_part()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should seenewsroomresults",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_should_seenewsroomresults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I am able to validate the item",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_able_to_validate_the_item()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test4"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am at cigna.com homepage",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_at_cigna_com_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T23:25:04.623Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4318856800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "I search Footer using Parameter",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-cigna-homepage;i-search-footer-using-parameter;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 651122900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I am at Aboutcigna  in the homepage",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_at_Aboutcigna_in_the_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I need to clickinvestorsin Footer part",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_need_to_clickinvestorsin_Footer_part()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should seeinvestorsresults",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_should_seeinvestorsresults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I am able to validate the item",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_able_to_validate_the_item()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test4"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 730100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am at cigna.com homepage",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_at_cigna_com_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T23:25:09.609Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4680841100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "I search Footer using Parameter",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-cigna-homepage;i-search-footer-using-parameter;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 702044200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 998100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I am at Aboutcigna  in the homepage",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_at_Aboutcigna_in_the_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I need to clicksuppliersin Footer part",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_need_to_clicksuppliersin_Footer_part()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should seesuppliersresults",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_should_seesuppliersresults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I am able to validate the item",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_able_to_validate_the_item()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test4"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2746200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am at cigna.com homepage",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_at_cigna_com_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T23:25:15.005Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5153127500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "I search Footer using Parameter",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-cigna-homepage;i-search-footer-using-parameter;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 756604500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2226700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I am at Aboutcigna  in the homepage",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_at_Aboutcigna_in_the_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2082000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I need to clickThird party Administratorsin Footer part",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_need_to_clickThird_party_Administratorsin_Footer_part()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1726500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should seeThird party Administratorsresults",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_should_seeThird_party_Administratorsresults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I am able to validate the item",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_able_to_validate_the_item()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test4"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1990600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am at cigna.com homepage",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_at_cigna_com_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T23:25:20.935Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4657635400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "I search Footer using Parameter",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-cigna-homepage;i-search-footer-using-parameter;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 678523500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2121600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I am at Aboutcigna  in the homepage",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_at_Aboutcigna_in_the_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I need to clickinternationalin Footer part",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_need_to_clickinternationalin_Footer_part()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should seeinternationalresults",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_should_seeinternationalresults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I am able to validate the item",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_able_to_validate_the_item()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test4"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 996600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am at cigna.com homepage",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_at_cigna_com_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T23:25:26.288Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5003050000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "HoverOn Coverage and Claims",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-cigna-homepage;hoveron-coverage-and-claims",
+        "after": [
+          {
+            "result": {
+              "duration": 701130000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1017300,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I hover on Coverage and Claims",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_hover_on_Coverage_and_Claims()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 171753100,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I click on a Coverage and Claims",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_click_on_a_Coverage_and_Claims()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1219800,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I will see the Coverage and Claims",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_will_see_the_Coverage_and_Claims()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test5"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1011700,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am at cigna.com homepage",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_at_cigna_com_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T23:25:32.183Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5105166700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "click on LogIn",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-cigna-homepage;click-on-login",
+        "after": [
+          {
+            "result": {
+              "duration": 661208500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1176800,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I click on LogIn button",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_click_on_LogIn_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I am able to see LogIn Page",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_able_to_see_LogIn_Page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test6"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1005600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am at cigna.com homepage",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_at_cigna_com_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T23:25:37.969Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4907834200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "click on UserID",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-cigna-homepage;click-on-userid",
+        "after": [
+          {
+            "result": {
+              "duration": 663134900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1648300,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I click on UserID",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_click_on_UserID()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 994700,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I am able to see the inbox to write my  UserId",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_able_to_see_the_inbox_to_write_my_UserId()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test7"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1001500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am at cigna.com homepage",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_at_cigna_com_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T23:25:43.554Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4960262000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 48,
+        "name": "click on Logo",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-cigna-homepage;click-on-logo",
+        "after": [
+          {
+            "result": {
+              "duration": 706468800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2470920500,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I click on Logo",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_click_on_Logo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1142200,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I am able to see the Logo of Cigna",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_able_to_see_the_Logo_of_Cigna()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test8"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 997000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am at cigna.com homepage",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_at_cigna_com_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T23:25:51.707Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5022175800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "HoverOn Medicare",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-cigna-homepage;hoveron-medicare",
+        "after": [
+          {
+            "result": {
+              "duration": 669423500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 997500,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I hover on Medicare",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_hover_on_Medicare()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I click on a Medicare",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_click_on_a_Medicare()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I will see the Medicare related Items",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_will_see_the_Medicare_related_Items()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test9"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 662000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am at cigna.com homepage",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_at_cigna_com_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T23:25:57.416Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4913348000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 57,
+        "name": "HoverOn plans and services",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-cigna-homepage;hoveron-plans-and-services",
+        "after": [
+          {
+            "result": {
+              "duration": 741004200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I click on the plans and services",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_click_on_the_plans_and_services()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I will see all the items included in plans and services",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_will_see_all_the_items_included_in_plans_and_services()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test10"
+          }
+        ]
+      }
+    ],
+    "name": "As a customer I want to explore cigna homepage",
+    "description": "",
+    "id": "as-a-customer-i-want-to-explore-cigna-homepage",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/CignaHome.feature",
+    "tags": []
+  }
+]

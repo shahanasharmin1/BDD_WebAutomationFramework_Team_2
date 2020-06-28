@@ -1,0 +1,2113 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T13:57:55.980Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4508932100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Click logIn",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-geico-homepage;click-login",
+        "after": [
+          {
+            "result": {
+              "duration": 653478900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29919600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at Geico Home Page",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_am_at_Geico_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 546479800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on log in button",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_click_on_log_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should see the logIn option",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_should_see_the_logIn_option()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test1"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T13:58:01.818Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3905458700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Log in with invalid credential",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-geico-homepage;log-in-with-invalid-credential;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1492781400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 996000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters first idShamima",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.user_enters_first_idShamima()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters first password Pl944985",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.user_enters_first_password_Pl944985()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks sign in button",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.user_clicks_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user sees Forgot ID?Password",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.user_sees_Forgot_ID_Password()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test2"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T13:58:07.234Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3965054600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Log in with invalid credential",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-geico-homepage;log-in-with-invalid-credential;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 612674000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters first idTanjina",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.user_enters_first_idTanjina()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters first password pl56789",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.user_enters_first_password_pl56789()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks sign in button",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.user_clicks_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user sees Forgot ID?Password",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.user_sees_Forgot_ID_Password()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test2"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T13:58:11.813Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3854018100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Log in with invalid credential",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-geico-homepage;log-in-with-invalid-credential;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 609845600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters first idShahana",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.user_enters_first_idShahana()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters first password pl145678",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.user_enters_first_password_pl145678()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks sign in button",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.user_clicks_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user sees Forgot ID?Password",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.user_sees_Forgot_ID_Password()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test2"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T13:58:16.280Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3893138600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Log in with invalid credential",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-geico-homepage;log-in-with-invalid-credential;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 618514400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters first idMezbah",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.user_enters_first_idMezbah()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1009900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters first password pl679540",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.user_enters_first_password_pl679540()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 981600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks sign in button",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.user_clicks_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user sees Forgot ID?Password",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.user_sees_Forgot_ID_Password()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test2"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T13:58:20.797Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3962719200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Log in with invalid credential",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-geico-homepage;log-in-with-invalid-credential;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 635854100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 996500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters first idAsif",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.user_enters_first_idAsif()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters first password pl678943",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.user_enters_first_password_pl678943()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks sign in button",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.user_clicks_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user sees Forgot ID?Password",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.user_sees_Forgot_ID_Password()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test2"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T13:58:25.399Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3965148700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "scroll Down the Geico homepage",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-geico-homepage;scroll-down-the-geico-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 609319200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 84772700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "i scroll down the webPage byPixel",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_scroll_down_the_webPage_byPixel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 998800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I will see the the page are scrolled down",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_will_see_the_the_page_are_scrolled_down()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test3"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T13:58:30.060Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3962109700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "scroll till the end of the Geico homepage",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-geico-homepage;scroll-till-the-end-of-the-geico-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 615789300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 86771600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "i scroll till the end",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_scroll_till_the_end()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I will see the the page are scrolled tillend",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_will_see_the_the_page_are_scrolled_tillend()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test4"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T13:58:34.726Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4419015500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "I search Footer using Parameter",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-geico-homepage;i-search-footer-using-parameter;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 634937200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1995100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I am at Geico Careers in the homepage",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_am_at_Geico_Careers_in_the_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 996800,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I need to clickCustomer Servicein Footer part",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_need_to_clickCustomer_Servicein_Footer_part()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997500,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I should seeCustomer Serviceresults",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_should_seeCustomer_Serviceresults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997600,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I am able to validate the item",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_am_able_to_validate_the_item()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test5"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T13:58:39.785Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3901513600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "I search Footer using Parameter",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-geico-homepage;i-search-footer-using-parameter;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 640909300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1993500,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I am at Geico Careers in the homepage",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_am_at_Geico_Careers_in_the_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".font\\-\\-bold\\ font\\-\\-bluejay\\ \"}\n  (Session info: chrome\u003d83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-QGBDCVE\u0027, ip: \u0027192.168.1.112\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\NASRI_~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:60649}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 0e50404e3b0e47712407392353e08d23\n*** Element info: {Using\u003dclass name, value\u003dfont--bold font--bluejay }\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:412)\r\n\tat org.openqa.selenium.By$ByClassName.findElement(By.java:389)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\r\n\tat home.HomePage.clickonsales(HomePage.java:94)\r\n\tat step_definitions.SearchOnGeico_Step_Definition.i_need_to_clickSalesin_Footer_part(SearchOnGeico_Step_Definition.java:155)\r\n\tat ✽.I need to clickSalesin Footer part(file:///C:/Users/nasri_9gklr9r/IdeaProjects/BDD_WebAutomationFramework_Team_2/Geico/src/main/java/features/GeicoHome.feature:35)\r\n",
+              "duration": 10122101000,
+              "status": "failed"
+            },
+            "line": 35,
+            "name": "I need to clickSalesin Footer part",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_need_to_clickSalesin_Footer_part()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "I should seeSalesresults",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_should_seeSalesresults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "I am able to validate the item",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_am_able_to_validate_the_item()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test5"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T13:58:54.499Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3933960000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "I search Footer using Parameter",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-geico-homepage;i-search-footer-using-parameter;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 618426700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 997300,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I am at Geico Careers in the homepage",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_am_at_Geico_Careers_in_the_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I need to clickClaimsin Footer part",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_need_to_clickClaimsin_Footer_part()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I should seeClaimsresults",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_should_seeClaimsresults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1994900,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I am able to validate the item",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_am_able_to_validate_the_item()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test5"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T13:58:59.055Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3849765800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 43,
+        "name": "I search Footer using Parameter",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-geico-homepage;i-search-footer-using-parameter;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 634693700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1993800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I am at Geico Careers in the homepage",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_am_at_Geico_Careers_in_the_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I need to clickLeadership Developmentin Footer part",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_need_to_clickLeadership_Developmentin_Footer_part()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997300,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I should seeLeadership Developmentresults",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_should_seeLeadership_Developmentresults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997400,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I am able to validate the item",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_am_able_to_validate_the_item()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test5"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T13:59:03.544Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4098660300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "I search Footer using Parameter",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-geico-homepage;i-search-footer-using-parameter;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 655722100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 997100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I am at Geico Careers in the homepage",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_am_at_Geico_Careers_in_the_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I need to clickAuto Damagein Footer part",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_need_to_clickAuto_Damagein_Footer_part()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 995600,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I should seeAuto Damageresults",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_should_seeAuto_Damageresults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998300,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I am able to validate the item",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_am_able_to_validate_the_item()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test5"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T13:59:08.303Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4028313500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "I search Footer using Parameter",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-geico-homepage;i-search-footer-using-parameter;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 634782900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 996600,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I am at Geico Careers in the homepage",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_am_at_Geico_Careers_in_the_homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 998000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I need to clickCorporate \u0026 Technologyin Footer part",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_need_to_clickCorporate_Technologyin_Footer_part()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I should seeCorporate \u0026 Technologyresults",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_should_seeCorporate_Technologyresults()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I am able to validate the item",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_am_able_to_validate_the_item()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test5"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T13:59:12.972Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3963475000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-geico-homepage;",
+        "after": [
+          {
+            "result": {
+              "duration": 632621600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 997600,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I click on RadioButton",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_click_on_RadioButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "The RadioButton supposed to be clicked",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.the_RadioButton_supposed_to_be_clicked()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test6"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T13:59:17.571Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3905915200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 53,
+        "name": "",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-geico-homepage;",
+        "after": [
+          {
+            "result": {
+              "duration": 625732200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 996500,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I click on checkBox",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_click_on_checkBox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 998000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "The checkBox to be clicked",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.the_checkBox_to_be_clicked()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test7"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T13:59:22.105Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3872294600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 57,
+        "name": "",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-geico-homepage;",
+        "after": [
+          {
+            "result": {
+              "duration": 620834200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I click on Logo",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_click_on_Logo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 998700,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "The Logo element supposed to be clicked to validate the homepage",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.the_Logo_element_supposed_to_be_clicked_to_validate_the_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test8"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T13:59:26.599Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3883162700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 62,
+        "name": "",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-geico-homepage;",
+        "after": [
+          {
+            "result": {
+              "duration": 660495000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 998300,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I click on Image",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_click_on_Image()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 996300,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I am able to validate the geico Homepage",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_am_able_to_validate_the_geico_Homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test9"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T13:59:31.146Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4513829300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 67,
+        "name": "HoverOn Access Your Policy",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-geico-homepage;hoveron-access-your-policy",
+        "after": [
+          {
+            "result": {
+              "duration": 684163800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 996800,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I hover on Access Your Policy",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_hover_on_Access_Your_Policy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997800,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I click Access Your Policy",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_click_Access_Your_Policy()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I will enter Access Your Policy options",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_will_enter_Access_Your_Policy_options()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test10"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T13:59:36.346Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4128044100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 72,
+        "name": "",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-geico-homepage;",
+        "after": [
+          {
+            "result": {
+              "duration": 671927900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\" Track a claim\"}\n  (Session info: chrome\u003d83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-QGBDCVE\u0027, ip: \u0027192.168.1.112\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\NASRI_~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:61022}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: cec1cbd1e2beca3b8b59ce1346e5b68a\n*** Element info: {Using\u003dlink text, value\u003d Track a claim}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)\r\n\tat org.openqa.selenium.By$ByLinkText.findElement(By.java:220)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\r\n\tat home.HomePage.clickonTrackaclaim(HomePage.java:72)\r\n\tat step_definitions.SearchOnGeico_Step_Definition.i_click_on_Track_a_claim(SearchOnGeico_Step_Definition.java:272)\r\n\tat ✽.I click on Track a claim(file:///C:/Users/nasri_9gklr9r/IdeaProjects/BDD_WebAutomationFramework_Team_2/Geico/src/main/java/features/GeicoHome.feature:73)\r\n",
+              "duration": 10124102700,
+              "status": "failed"
+            },
+            "line": 73,
+            "name": "I click on Track a claim",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_click_on_Track_a_claim()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 74,
+            "name": "The Track a claim options supposed to be clicked",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.the_Track_a_claim_options_supposed_to_be_clicked()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test11"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T13:59:51.270Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4038346200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 77,
+        "name": "",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-geico-homepage;",
+        "after": [
+          {
+            "result": {
+              "duration": 629527300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 622599900,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "I click on search Button",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_click_on_search_Button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 990500,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "The search Button supposed to be clicked",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.the_search_Button_supposed_to_be_clicked()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test12"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T13:59:56.561Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3932032100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 82,
+        "name": "",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-geico-homepage;",
+        "after": [
+          {
+            "result": {
+              "duration": 663100800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003ca href\u003d\"https://geico.app.link/staticHomeReportAnIncident\" class\u003d\"btn btn--primary btn--full-mobile\"\u003e...\u003c/a\u003e is not clickable at point (445, 652). Other element would receive the click: \u003cdiv id\u003d\"cookie-notice\"\u003e...\u003c/div\u003e\n  (Session info: chrome\u003d83.0.4103.116)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-QGBDCVE\u0027, ip: \u0027192.168.1.112\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\NASRI_~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:61120}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 5dc94341735fd9389d18fb747519b4a5\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\r\n\tat home.HomePage.REPORTANINCIDENT(HomePage.java:78)\r\n\tat step_definitions.SearchOnGeico_Step_Definition.i_click_on_REPORTANINCIDENT(SearchOnGeico_Step_Definition.java:293)\r\n\tat ✽.I click on REPORTANINCIDENT(file:///C:/Users/nasri_9gklr9r/IdeaProjects/BDD_WebAutomationFramework_Team_2/Geico/src/main/java/features/GeicoHome.feature:83)\r\n",
+              "duration": 1235717300,
+              "status": "failed"
+            },
+            "line": 83,
+            "name": "I click on REPORTANINCIDENT",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_click_on_REPORTANINCIDENT()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997300,
+              "status": "skipped"
+            },
+            "line": 84,
+            "name": "The  REPORTANINCIDENT options supposed to be clicked",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.the_REPORTANINCIDENT_options_supposed_to_be_clicked()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test13"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T14:00:02.395Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3969793200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 86,
+        "name": "search Information",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-geico-homepage;search-information",
+        "after": [
+          {
+            "result": {
+              "duration": 640514500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 760186200,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "I click on Infomation",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_click_on_Infomation()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "I am able to search Information about Geico",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_am_able_to_search_Information_about_Geico()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test14"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T14:00:07.773Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4035059500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 90,
+        "name": "click on Drop Down Button of the Insurance",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-geico-homepage;click-on-drop-down-button-of-the-insurance",
+        "after": [
+          {
+            "result": {
+              "duration": 635560900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 997500,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "I click on the Drop down button",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_click_on_the_Drop_down_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 996700,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "I should get all the options of the Insurance",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_should_get_all_the_options_of_the_Insurance()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test15"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T14:00:12.445Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3910986000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 94,
+        "name": "select Vechile Insurance by DropDown",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-geico-homepage;select-vechile-insurance-by-dropdown",
+        "after": [
+          {
+            "result": {
+              "duration": 627463900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 996900,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "I select the Vechile Insurance",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_select_the_Vechile_Insurance()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 996800,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "I should get the Vechile Insurance options",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_should_get_the_Vechile_Insurance_options()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test16"
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2020-06-27T14:00:16.986Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4121233000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 98,
+        "name": "drop down on Auto Tab",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-geico-homepage;drop-down-on-auto-tab",
+        "after": [
+          {
+            "result": {
+              "duration": 668753500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 997400,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "I click on the drop down button of auto tab and i select the identity protection",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_click_on_the_drop_down_button_of_auto_tab_and_i_select_the_identity_protection()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 100,
+            "name": "I click auto tab",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_click_auto_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997100,
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "I  am able to select identity protection",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_am_able_to_select_identity_protection()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test17"
+          }
+        ]
+      }
+    ],
+    "name": "As a customer i want to explore Geico homepage",
+    "description": "",
+    "id": "as-a-customer-i-want-to-explore-geico-homepage",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/GeicoHome.feature",
+    "tags": []
+  }
+]

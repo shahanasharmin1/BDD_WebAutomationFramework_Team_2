@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-06-21T03:09:02.937Z",
+        "start_timestamp": "2020-06-27T01:04:22.724Z",
         "before": [
           {
             "result": {
-              "duration": 4561991500,
+              "duration": 4419965400,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 722239100,
+              "duration": 627926600,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 16592400,
+              "duration": 19946200,
               "status": "passed"
             },
             "line": 4,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 3028562200,
+              "duration": 116687700,
               "status": "passed"
             },
             "line": 5,
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 2925152800,
+              "duration": 3004615800,
               "status": "passed"
             },
             "line": 6,
@@ -71,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 33183400,
+              "duration": 62833800,
               "status": "passed"
             },
             "line": 7,
@@ -84,16 +84,16 @@
         ],
         "tags": [
           {
-            "name": "@SmokeTest"
+            "name": "@Test1"
           }
         ]
       },
       {
-        "start_timestamp": "2020-06-21T03:09:14.274Z",
+        "start_timestamp": "2020-06-27T01:04:31.063Z",
         "before": [
           {
             "result": {
-              "duration": 4875288400,
+              "duration": 3953435700,
               "status": "passed"
             },
             "match": {
@@ -108,7 +108,7 @@
         "after": [
           {
             "result": {
-              "duration": 674416100,
+              "duration": 648499200,
               "status": "passed"
             },
             "match": {
@@ -121,7 +121,7 @@
         "steps": [
           {
             "result": {
-              "duration": 975700,
+              "duration": 1998300,
               "status": "passed"
             },
             "line": 11,
@@ -133,9 +133,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#rtm_list1 \u003e div \u003e a \u003e div \u003e div\"}\n  (Session info: chrome\u003d83.0.4103.106)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-HKN9H90\u0027, ip: \u0027192.168.1.25\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.106, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\asifu\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62821}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 454404748d1dd0dd88cc873dcf012a78\n*** Element info: {Using\u003dcss selector, value\u003d#rtm_list1 \u003e div \u003e a \u003e div \u003e div}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\r\n\tat home.HomePage.userclickonimageWebelement(HomePage.java:47)\r\n\tat step_definitions.SearchOnEbay_Step_Definition.i_click_on_image_of_ebayHomePage(SearchOnEbay_Step_Definition.java:54)\r\n\tat ✽.I click on image of ebayHomePage(file:///F:/SeleniumProject/BDD_WebAutomationFramework_Team_2/Ebay/src/main/java/features/EbayHome.feature:12)\r\n",
-              "duration": 10042406700,
-              "status": "failed"
+              "duration": 993600,
+              "status": "passed"
             },
             "line": 12,
             "name": "I click on image of ebayHomePage",
@@ -146,8 +145,9 @@
           },
           {
             "result": {
-              "duration": 976400,
-              "status": "skipped"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#banner1 \u003e div.type-banner-text \u003e div \u003e h1\"}\n  (Session info: chrome\u003d83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-QGBDCVE\u0027, ip: \u0027192.168.1.112\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.6\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\NASRI_~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58046}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: a6257de742b9ad9a32a7736f399f22fd\n*** Element info: {Using\u003dcss selector, value\u003d#banner1 \u003e div.type-banner-text \u003e div \u003e h1}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy19.getText(Unknown Source)\r\n\tat home.HomePage.validateimageElement(HomePage.java:64)\r\n\tat step_definitions.SearchOnEbay_Step_Definition.i_should_see_variety_section(SearchOnEbay_Step_Definition.java:59)\r\n\tat ✽.I should see  variety section(file:///C:/Users/nasri_9gklr9r/IdeaProjects/BDD_WebAutomationFramework_Team_2/Ebay/src/main/java/features/EbayHome.feature:13)\r\n",
+              "duration": 10030300300,
+              "status": "failed"
             },
             "line": 13,
             "name": "I should see  variety section",
@@ -159,7 +159,529 @@
         ],
         "tags": [
           {
-            "name": "@Test1"
+            "name": "@Test2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T01:04:45.713Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4197493100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Search product using Parameter",
+        "description": "",
+        "id": "explore-ebay-homepage;search-product-using-parameter;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 620165800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2992100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I Enter \"Hand soap\" in search input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hand soap\"",
+                  "offset": 8
+                }
+              ],
+              "location": "step_definitions.SearchOnEbay_Step_Definition.i_Enter_in_search_input_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 605601800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I Click search button",
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.i_Click_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should see \"\" Hand soap \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 26
+                }
+              ],
+              "location": "step_definitions.SearchOnEbay_Step_Definition.i_should_see_Hand_soap(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T01:04:51.154Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4081812600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Search product using Parameter",
+        "description": "",
+        "id": "explore-ebay-homepage;search-product-using-parameter;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 609128800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 997500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I Enter \"note book\" in search input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"note book\"",
+                  "offset": 8
+                }
+              ],
+              "location": "step_definitions.SearchOnEbay_Step_Definition.i_Enter_in_search_input_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 532808900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I Click search button",
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.i_Click_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 996500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should see \"\"note book\"\"",
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.i_should_see_note_book()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T01:04:56.388Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3958983500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Search product using Parameter",
+        "description": "",
+        "id": "explore-ebay-homepage;search-product-using-parameter;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 604013000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 998200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I Enter \"water bottle\" in search input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"water bottle\"",
+                  "offset": 8
+                }
+              ],
+              "location": "step_definitions.SearchOnEbay_Step_Definition.i_Enter_in_search_input_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 660902700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I Click search button",
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.i_Click_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1988500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should see \"\"water bottle\"\"",
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.i_should_see_water_bottle()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T01:05:01.624Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4013972900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Search product using Parameter",
+        "description": "",
+        "id": "explore-ebay-homepage;search-product-using-parameter;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 629867100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 997800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I Enter \"pencils\" in search input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"pencils\"",
+                  "offset": 8
+                }
+              ],
+              "location": "step_definitions.SearchOnEbay_Step_Definition.i_Enter_in_search_input_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1341410800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I Click search button",
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.i_Click_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should see \"\" pencils \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definitions.SearchOnEbay_Step_Definition.i_should_see_pencils(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T01:05:07.613Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4059276100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "hover on ebay logo",
+        "description": "",
+        "id": "explore-ebay-homepage;hover-on-ebay-logo",
+        "after": [
+          {
+            "result": {
+              "duration": 632637500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18948500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I click on logo",
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.i_click_on_logo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I am able to validate the ebay homepage",
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.i_am_able_to_validate_the_ebay_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test4"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T01:05:12.331Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3905853800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "scroll Down the Ebay homepage",
+        "description": "",
+        "id": "explore-ebay-homepage;scroll-down-the-ebay-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 607738900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8975500,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "i scroll down the webPage byPixel",
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.i_scroll_down_the_webPage_byPixel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997400,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I will see the the page are scrolled down",
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.i_will_see_the_the_page_are_scrolled_down()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T01:05:16.864Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4039993400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 42,
+        "name": "scroll till the end of the Ebay homepage",
+        "description": "",
+        "id": "explore-ebay-homepage;scroll-till-the-end-of-the-ebay-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 640162100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9973300,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "i scroll till the end",
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.i_scroll_till_the_end()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I will see the the page are scrolled tillend",
+            "match": {
+              "location": "step_definitions.SearchOnEbay_Step_Definition.i_will_see_the_the_page_are_scrolled_tillend()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test4"
           }
         ]
       }
