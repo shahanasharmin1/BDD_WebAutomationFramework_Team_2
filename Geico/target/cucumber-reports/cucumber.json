@@ -1,0 +1,1264 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 30403000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at geico homePage",
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.i_am_at_geico_homePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T18:42:54.024Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3866059000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2219729000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Search offers for bundle",
+        "description": "",
+        "id": "search-bundle-\u0026-saves-on-geico-homepage;search-offers-for-bundle",
+        "after": [
+          {
+            "result": {
+              "duration": 138103000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 58000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6184000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I Enter am geico homePage",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_Enter_am_geico_homePage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3273000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I pass value for zipcode 11373",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11373",
+                  "offset": 25
+                }
+              ],
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_pass_value_for_zipcode(java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1170000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on Start Quote searchButton",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_click_on_Start_Quote_searchButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1244000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should see Auto",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_should_see_Auto()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 768000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at geico homePage",
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.i_am_at_geico_homePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T18:43:00.498Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2356327000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2589853000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Search Bundle Offers using Parameter",
+        "description": "",
+        "id": "search-bundle-\u0026-saves-on-geico-homepage;search-bundle-offers-using-parameter",
+        "after": [
+          {
+            "result": {
+              "duration": 89305000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 40000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "I Enter \u003c Bundle Offers\u003e in  input field",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "Auto"
+                ]
+              },
+              {
+                "cells": [
+                  "Renters"
+                ]
+              },
+              {
+                "cells": [
+                  "Home"
+                ]
+              },
+              {
+                "cells": [
+                  "Condo"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 621000,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "I Click search button",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_Click_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 662000,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "I should see Expected Items",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_should_see_Expected_Items()"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "\" Auto \""
+                ]
+              },
+              {
+                "cells": [
+                  "\" Renters \""
+                ]
+              },
+              {
+                "cells": [
+                  "\" Home \""
+                ]
+              },
+              {
+                "cells": [
+                  "\" Condo \""
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@pending"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1460000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at geico homePage",
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.i_am_at_geico_homePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T18:43:05.563Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2482249000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2367670000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Search product using Parameter",
+        "description": "",
+        "id": "search-bundle-\u0026-saves-on-geico-homepage;search-product-using-parameter;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 142559000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 32000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2958000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I Enter \"Auto\" in  input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Auto\"",
+                  "offset": 8
+                }
+              ],
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_Enter_in_input_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1247000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I Click Start Quote search button",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_Click_Start_Quote_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 32,
+            "name": "I Should see \"\" Auto \"\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@pending"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2251000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at geico homePage",
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.i_am_at_geico_homePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T18:43:10.580Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2140198000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2648469000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Search product using Parameter",
+        "description": "",
+        "id": "search-bundle-\u0026-saves-on-geico-homepage;search-product-using-parameter;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 86752000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 63000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4317000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I Enter \"Renters\" in  input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Renters\"",
+                  "offset": 8
+                }
+              ],
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_Enter_in_input_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1139000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I Click Start Quote search button",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_Click_Start_Quote_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 982000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I Should see \"\" Renters \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 24
+                }
+              ],
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_Should_see_Renters(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@pending"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 759000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at geico homePage",
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.i_am_at_geico_homePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T18:43:15.478Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2154225000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2877883000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "Search product using Parameter",
+        "description": "",
+        "id": "search-bundle-\u0026-saves-on-geico-homepage;search-product-using-parameter;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 187626000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 52000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1684000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I Enter \"Home\" in  input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Home\"",
+                  "offset": 8
+                }
+              ],
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_Enter_in_input_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1804000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I Click Start Quote search button",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_Click_Start_Quote_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 927000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I Should see \"\" Home \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 21
+                }
+              ],
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_Should_see_Home(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@pending"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 988000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at geico homePage",
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.i_am_at_geico_homePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T18:43:20.715Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2561348000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2591717000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "Search product using Parameter",
+        "description": "",
+        "id": "search-bundle-\u0026-saves-on-geico-homepage;search-product-using-parameter;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 130970000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 41000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2755000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I Enter \"Condo\" in  input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Condo\"",
+                  "offset": 8
+                }
+              ],
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_Enter_in_input_field(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 615000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I Click Start Quote search button",
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_Click_Start_Quote_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 650000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I Should see \"\" Condo \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 13
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 22
+                }
+              ],
+              "location": "step_definitions.SearchOnGeico_Step_Definition.i_Should_see_Condo(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@pending"
+          }
+        ]
+      }
+    ],
+    "name": "Search Bundle \u0026 Saves on geico homepage",
+    "description": "  As an user i wanted to search product on geico.com for offers",
+    "id": "search-bundle-\u0026-saves-on-geico-homepage",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/GeicoHome.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 526000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at geico.com homePage",
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.i_am_at_geico_com_homePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T18:43:26.016Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2637025000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2735978000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Scroll Down the geico homepage",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-geico.com-homepage;scroll-down-the-geico-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 190078000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 29000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 370480000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I scroll down the webPage byPixel",
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.i_scroll_down_the_webPage_byPixel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1040000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I will see the page is being scrolled down",
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.i_will_see_the_page_is_being_scrolled_down()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 719000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at geico.com homePage",
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.i_am_at_geico_com_homePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T18:43:31.972Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2135276000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2810971000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Scroll till the end of the geico homepage",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-geico.com-homepage;scroll-till-the-end-of-the-geico-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 140090000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 55000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 33353000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I do scroll till the end",
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.i_do_scroll_till_the_end()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 859000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I will see  the page is being scrolled tillToEnd",
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.i_will_see_the_page_is_being_scrolled_tillToEnd()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 718000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at geico.com homePage",
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.i_am_at_geico_com_homePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T18:43:37.115Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2291270000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2781806000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "DO dropDown on Insurance",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-geico.com-homepage;do-dropdown-on-insurance",
+        "after": [
+          {
+            "result": {
+              "duration": 189102000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 40000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2587000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on the drop down button and i select the Property Insurance",
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.i_click_on_the_drop_down_button_and_i_select_the_Property_Insurance()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4201000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see types of Property Insurance page for Home",
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.i_should_see_types_of_Property_Insurance_page_for_Home()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 781000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am at geico.com homePage",
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.i_am_at_geico_com_homePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T18:43:42.395Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2381993000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2883445000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "DO dropDown on Information",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-geico.com-homepage;do-dropdown-on-information",
+        "after": [
+          {
+            "result": {
+              "duration": 132253000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 47000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnGeico_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1199000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on the drop down button and i select My Account",
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.i_click_on_the_drop_down_button_and_i_select_My_Account()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 318000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I should see My Account Page",
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.i_should_see_My_Account_Page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 322000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I can pass my email id in search field",
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.i_can_pass_my_email_id_in_search_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 368000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I enter my password",
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.i_enter_my_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 799000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click on Log In button",
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.i_click_on_Log_In_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 531000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I should see Forget User ID/Password page",
+            "match": {
+              "location": "step_definitions.Geico_HomePage_Step_Definition.i_should_see_Forget_User_ID_Password_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "As a customer I want to explore Geico.com homepage",
+    "description": "",
+    "id": "as-a-customer-i-want-to-explore-geico.com-homepage",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/GeicoHomePage.feature",
+    "tags": []
+  }
+]

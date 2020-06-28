@@ -1,0 +1,2663 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 24224000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at hbo Home Page",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_am_at_hbo_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T13:48:51.282Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4420360000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Search product",
+        "description": "",
+        "id": "search-series-on-hbo-homepage-searchbox;search-product",
+        "after": [
+          {
+            "result": {
+              "duration": 161707000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2154000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I Enter Series in search input field",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_Enter_Series_in_search_input_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1692000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I Click search button",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_Click_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2040000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see SERIES",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_should_see_SERIES()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1475000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at hbo Home Page",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_am_at_hbo_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T13:48:55.976Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3581806000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Search product",
+        "description": "",
+        "id": "search-series-on-hbo-homepage-searchbox;search-product",
+        "after": [
+          {
+            "result": {
+              "duration": 161897000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1122000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I Enter Series in search input field",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_Enter_Series_in_search_input_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1212000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I Click search button",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_Click_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1574000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I should see SERIES",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_should_see_SERIES()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1624000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at hbo Home Page",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_am_at_hbo_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T13:48:59.749Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3911646000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Search product using Parameter",
+        "description": "",
+        "id": "search-series-on-hbo-homepage-searchbox;search-product-using-parameter",
+        "after": [
+          {
+            "result": {
+              "duration": 2290626000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2557000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I Enter \"SERIES\" in search input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SERIES\"",
+                  "offset": 8
+                }
+              ],
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_Enter_in_search_input_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1551000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I Click search button",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_Click_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21774000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I should see \"\\\"SERIES\\\"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\\\"SERIES\\\"\"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_should_see(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1504000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at hbo Home Page",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_am_at_hbo_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T13:49:06.011Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4267643000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Search product using Parameter",
+        "description": "",
+        "id": "search-series-on-hbo-homepage-searchbox;search-product-using-parameter",
+        "after": [
+          {
+            "result": {
+              "duration": 198340000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5199000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I Enter Items in search input field",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_Enter_Items_in_search_input_field(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "SERIES"
+                ]
+              },
+              {
+                "cells": [
+                  "Girls Season"
+                ]
+              },
+              {
+                "cells": [
+                  "Alien 3"
+                ]
+              },
+              {
+                "cells": [
+                  "The Newsroom"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1009000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I Click search button",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_Click_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1283000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I should see Expected Items",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_should_see_Expected_Items(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "\"SERIES\""
+                ]
+              },
+              {
+                "cells": [
+                  "\"Girls Season\""
+                ]
+              },
+              {
+                "cells": [
+                  "\"Alien 3\""
+                ]
+              },
+              {
+                "cells": [
+                  "\"The Newsroom\""
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1885000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at hbo Home Page",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_am_at_hbo_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T13:49:10.495Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3828834000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 47,
+        "name": "Search product using Parameter",
+        "description": "",
+        "id": "search-series-on-hbo-homepage-searchbox;search-product-using-parameter;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 162664000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1829000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I Enter \"SERIES\" in search input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SERIES\"",
+                  "offset": 8
+                }
+              ],
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_Enter_in_search_input_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1013000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I Click search button",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_Click_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 909000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I Should see \"\u003cExpectedItems\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cExpectedItems\u003e\"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_Should_see(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1113000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at hbo Home Page",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_am_at_hbo_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T13:49:14.511Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3302184000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 48,
+        "name": "Search product using Parameter",
+        "description": "",
+        "id": "search-series-on-hbo-homepage-searchbox;search-product-using-parameter;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 159206000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2350000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I Enter \"Girls Season\" in search input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Girls Season\"",
+                  "offset": 8
+                }
+              ],
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_Enter_in_search_input_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2223000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I Click search button",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_Click_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1044000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I Should see \"\u003cExpectedItems\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cExpectedItems\u003e\"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_Should_see(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1090000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at hbo Home Page",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_am_at_hbo_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T13:49:17.990Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3358440000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 49,
+        "name": "Search product using Parameter",
+        "description": "",
+        "id": "search-series-on-hbo-homepage-searchbox;search-product-using-parameter;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 153809000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1335000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I Enter \"Alien 3\" in search input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Alien 3\"",
+                  "offset": 8
+                }
+              ],
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_Enter_in_search_input_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 685000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I Click search button",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_Click_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 929000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I Should see \"\u003cExpectedItems\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cExpectedItems\u003e\"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_Should_see(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 772000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at hbo Home Page",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_am_at_hbo_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T13:49:21.514Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3537610000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 50,
+        "name": "Search product using Parameter",
+        "description": "",
+        "id": "search-series-on-hbo-homepage-searchbox;search-product-using-parameter;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 154865000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 797000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "I Enter \"The Newsroom\" in search input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"The Newsroom\"",
+                  "offset": 8
+                }
+              ],
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_Enter_in_search_input_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 442000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I Click search button",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_Click_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 452000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I Should see \"\u003cExpectedItems\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cExpectedItems\u003e\"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_Should_see(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1152000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at hbo Home Page",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_am_at_hbo_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T13:49:25.217Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3372084000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 53,
+        "name": "Search product using Parameter",
+        "description": "",
+        "id": "search-series-on-hbo-homepage-searchbox;search-product-using-parameter",
+        "after": [
+          {
+            "result": {
+              "duration": 160368000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 990000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I Enter \"SERIES\" in search input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SERIES\"",
+                  "offset": 8
+                }
+              ],
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_Enter_in_search_input_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 654000,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I Click search button",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_Click_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 396000,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I should see \"SERIES\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SERIES\"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.SearchOnHBO_Step_Definition.i_should_see(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search series on hbo homepage searchBox",
+    "description": " As an user i wanted to search product on hbo.com for watching",
+    "id": "search-series-on-hbo-homepage-searchbox",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/HBOHome.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 568000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at HBO main homePage",
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_am_at_HBO_main_homePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T13:49:28.760Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3537345000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Search different options",
+        "description": "",
+        "id": "search-options-on-hbo-homepage-as-a-user;search-different-options",
+        "after": [
+          {
+            "result": {
+              "duration": 162248000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 519000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am at HBO homePage",
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_am_at_HBO_homePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 342000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should see Peteypedia  in homepage",
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_should_see_Peteypedia_in_homepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 381000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click in Peteypedia button",
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_click_in_Peteypedia_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 185127000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should PETEYPEDIA in next page",
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_should_PETEYPEDIA_in_next_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 803000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at HBO main homePage",
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_am_at_HBO_main_homePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T13:49:32.656Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5475409000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Search options using Parameter",
+        "description": "",
+        "id": "search-options-on-hbo-homepage-as-a-user;search-options-using-parameter;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 199802000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1247000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am at HBO homePage",
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_am_at_HBO_homePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 661000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click in Peteypedia button",
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_click_in_Peteypedia_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 759000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should see \"MEMO: The Computer and You\" in PETEYPEDIA page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MEMO: The Computer and You\"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_should_see_in_PETEYPEDIA_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 638000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see my \"\"MEMO: The Computer and You  \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 46
+                }
+              ],
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_should_see_my_MEMO_The_Computer_and_You(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 516000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at HBO main homePage",
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_am_at_HBO_main_homePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T13:49:38.351Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3474987000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Search options using Parameter",
+        "description": "",
+        "id": "search-options-on-hbo-homepage-as-a-user;search-options-using-parameter;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 158533000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1069000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am at HBO homePage",
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_am_at_HBO_homePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1407000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click in Peteypedia button",
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_click_in_Peteypedia_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 891000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should see \"LEGAL: The Road to Reparations\" in PETEYPEDIA page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LEGAL: The Road to Reparations\"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_should_see_in_PETEYPEDIA_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 870000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see my \"\"LEGAL: The Road to Reparations \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 49
+                }
+              ],
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_should_see_my_LEGAL_The_Road_to_Reparations(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 721000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at HBO main homePage",
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_am_at_HBO_main_homePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T13:49:42.005Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3552748000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Search options using Parameter",
+        "description": "",
+        "id": "search-options-on-hbo-homepage-as-a-user;search-options-using-parameter;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 159302000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1070000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am at HBO homePage",
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_am_at_HBO_homePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 694000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click in Peteypedia button",
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_click_in_Peteypedia_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 649000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should see \"EVIDENCE: Four Letters\" in PETEYPEDIA page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"EVIDENCE: Four Letters\"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_should_see_in_PETEYPEDIA_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 733000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see my \"\"EVIDENCE: Four Letters  \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 42
+                }
+              ],
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_should_see_my_EVIDENCE_Four_Letters(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1127000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at HBO main homePage",
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_am_at_HBO_main_homePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T13:49:45.753Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3457595000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Search options using Parameter",
+        "description": "",
+        "id": "search-options-on-hbo-homepage-as-a-user;search-options-using-parameter;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 111826000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 803000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am at HBO homePage",
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_am_at_HBO_homePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 587000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click in Peteypedia button",
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_click_in_Peteypedia_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 876000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should see \"EVIDENCE: \"Excalibur,\" MerlinCorp. Raid (4/28/95)\" in PETEYPEDIA page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" MerlinCorp. Raid (4/28/95)\"",
+                  "offset": 35
+                }
+              ],
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_should_see_EVIDENCE_Excalibur_in_PETEYPEDIA_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "I should see my \"\"EVIDENCE: \"Excalibur,\" MerlinCorp. Raid (4/28/95)\"\"",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 851000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at HBO main homePage",
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_am_at_HBO_main_homePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T13:49:49.345Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3577290000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Search options using Parameter",
+        "description": "",
+        "id": "search-options-on-hbo-homepage-as-a-user;search-options-using-parameter;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 161676000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1077000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am at HBO homePage",
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_am_at_HBO_homePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 907000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click in Peteypedia button",
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_click_in_Peteypedia_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 803000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should see \"MEDIA: NOSTALGIA (2007)\" in PETEYPEDIA page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MEDIA: NOSTALGIA (2007)\"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_should_see_in_PETEYPEDIA_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1002000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see my \"\"MEDIA: NOSTALGIA (2007) \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2007",
+                  "offset": 36
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 42
+                }
+              ],
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_should_see_my_MEDIA_NOSTALGIA(java.lang.Integer,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1200000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at HBO main homePage",
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_am_at_HBO_main_homePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T13:49:53.100Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3484203000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Search options using Parameter",
+        "description": "",
+        "id": "search-options-on-hbo-homepage-as-a-user;search-options-using-parameter;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 156407000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1418000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am at HBO homePage",
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_am_at_HBO_homePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 444000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click in Peteypedia button",
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_click_in_Peteypedia_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 412000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should see \"CLIPPING: \"Lady Trieu: Fact or Fiction\"\" in PETEYPEDIA page",
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_should_see_CLIPPING_Lady_Trieu_Fact_or_Fiction_in_PETEYPEDIA_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 360000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see my \"\"CLIPPING: \"Lady Trieu: Fact or Fiction\"\"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lady Trieu: Fact or Fiction\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 57
+                }
+              ],
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_should_see_my_CLIPPING(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 683000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at HBO main homePage",
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_am_at_HBO_main_homePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T13:49:56.751Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3472789000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Search options using Parameter",
+        "description": "",
+        "id": "search-options-on-hbo-homepage-as-a-user;search-options-using-parameter;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 166184000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1052000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am at HBO homePage",
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_am_at_HBO_homePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 663000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click in Peteypedia button",
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_click_in_Peteypedia_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 663000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should see \"MEMO: The Origin Story of \"Sister Night\"\" in PETEYPEDIA page",
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_should_see_MEMO_The_Origin_Story_of_Sister_Night_in_PETEYPEDIA_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 432000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see my \"\"MEMO: The Origin Story of \"Sister Night\"\"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sister Night\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 58
+                }
+              ],
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_should_see_my_MEMO_The_Origin_Story_of(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 705000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at HBO main homePage",
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_am_at_HBO_main_homePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T13:50:00.401Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3978952000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Search options using Parameter",
+        "description": "",
+        "id": "search-options-on-hbo-homepage-as-a-user;search-options-using-parameter;;9",
+        "after": [
+          {
+            "result": {
+              "duration": 158813000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 967000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am at HBO homePage",
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_am_at_HBO_homePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 397000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click in Peteypedia button",
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_click_in_Peteypedia_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 352000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should see \"MEMO: Fogdancing\" in PETEYPEDIA page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MEMO: Fogdancing\"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_should_see_in_PETEYPEDIA_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 570000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see my \"\"MEMO: Fogdancing \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 35
+                }
+              ],
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_should_see_my_MEMO_Fogdancing(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 562000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at HBO main homePage",
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_am_at_HBO_main_homePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T13:50:04.548Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3931754000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Search options using Parameter",
+        "description": "",
+        "id": "search-options-on-hbo-homepage-as-a-user;search-options-using-parameter;;10",
+        "after": [
+          {
+            "result": {
+              "duration": 157508000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 598000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am at HBO homePage",
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_am_at_HBO_homePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1099000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click in Peteypedia button",
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_click_in_Peteypedia_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 728000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should see \"MEMO: Dale Petey\" in PETEYPEDIA page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MEMO: Dale Petey\"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_should_see_in_PETEYPEDIA_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 753000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see my \"\"MEMO: Dale Petey \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 35
+                }
+              ],
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.i_should_see_my_MEMO_Dale_Petey(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search options on HBO homePage as a user",
+    "description": "  As an user i wanted to search options on hbo.com",
+    "id": "search-options-on-hbo-homepage-as-a-user",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/HBOSearchPeteypedia.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 817000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at hbo playHome Page",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_SignIn_Step_Definition.i_am_at_hbo_playHome_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T13:50:08.650Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3382988000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "User SignIn with invalid credential",
+        "description": "",
+        "id": "search-signin-on-hbo-playhome-page-signin-button;user-signin-with-invalid-credential",
+        "after": [
+          {
+            "result": {
+              "duration": 158536000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1237000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter Email Address  tester1234@yahoo.com",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_SignIn_Step_Definition.user_enter_Email_Address_tester1234_yahoo_com()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 523000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enter  password tester1234",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_SignIn_Step_Definition.user_enter_password_tester1234()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 495000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click in SignIn button",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_SignIn_Step_Definition.user_click_in_SignIn_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1103000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User see Forget ID/Password",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_SignIn_Step_Definition.user_see_Forget_ID_Password()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 876000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at hbo playHome Page",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_SignIn_Step_Definition.i_am_at_hbo_playHome_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T13:50:12.212Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3820136000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "SignIn with invalid credentials",
+        "description": "",
+        "id": "search-signin-on-hbo-playhome-page-signin-button;signin-with-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 154490000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1442000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Users enter EmailAddress \"tester1234@yahoo.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tester1234@yahoo.com\"",
+                  "offset": 25
+                }
+              ],
+              "location": "step_definitions.SearchOnHBO_SignIn_Step_Definition.users_enter_EmailAddress(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 671000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Users enter password \"tester1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tester1234\"",
+                  "offset": 21
+                }
+              ],
+              "location": "step_definitions.SearchOnHBO_SignIn_Step_Definition.users_enter_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 571000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Users click in SignIn button",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_SignIn_Step_Definition.users_click_in_SignIn_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 381000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Users see Forget ID/Password",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_SignIn_Step_Definition.users_see_Forget_ID_Password()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1331000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at hbo playHome Page",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_SignIn_Step_Definition.i_am_at_hbo_playHome_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T13:50:16.199Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3646662000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "SignIn with invalid credentials",
+        "description": "",
+        "id": "search-signin-on-hbo-playhome-page-signin-button;signin-with-invalid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 166315000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1278000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Users enter EmailAddress \"tester123@yahoo.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tester123@yahoo.com\"",
+                  "offset": 25
+                }
+              ],
+              "location": "step_definitions.SearchOnHBO_SignIn_Step_Definition.users_enter_EmailAddress(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 795000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Users enter password \"tester 123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tester 123\"",
+                  "offset": 21
+                }
+              ],
+              "location": "step_definitions.SearchOnHBO_SignIn_Step_Definition.users_enter_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 504000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Users click in SignIn button",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_SignIn_Step_Definition.users_click_in_SignIn_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 636000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Users see Forget ID/Password",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_SignIn_Step_Definition.users_see_Forget_ID_Password()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 423000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at hbo playHome Page",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_SignIn_Step_Definition.i_am_at_hbo_playHome_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T13:50:20.024Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3700680000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "SignIn with invalid credentials",
+        "description": "",
+        "id": "search-signin-on-hbo-playhome-page-signin-button;signin-with-invalid-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 162679000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 743000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Users enter EmailAddress \"tester12@yahoo.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tester12@yahoo.com\"",
+                  "offset": 25
+                }
+              ],
+              "location": "step_definitions.SearchOnHBO_SignIn_Step_Definition.users_enter_EmailAddress(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 559000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Users enter password \"tester 12\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tester 12\"",
+                  "offset": 21
+                }
+              ],
+              "location": "step_definitions.SearchOnHBO_SignIn_Step_Definition.users_enter_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 442000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Users click in SignIn button",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_SignIn_Step_Definition.users_click_in_SignIn_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 370000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Users see Forget ID/Password",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_SignIn_Step_Definition.users_see_Forget_ID_Password()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 584000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at hbo playHome Page",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_SignIn_Step_Definition.i_am_at_hbo_playHome_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-26T13:50:23.897Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3578501000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "SignIn with invalid credentials",
+        "description": "",
+        "id": "search-signin-on-hbo-playhome-page-signin-button;signin-with-invalid-credentials;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 159527000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.HBOSearchPeteypedia_Step_Definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 670000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Users enter EmailAddress \"tester1@yahoo.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tester1@yahoo.com\"",
+                  "offset": 25
+                }
+              ],
+              "location": "step_definitions.SearchOnHBO_SignIn_Step_Definition.users_enter_EmailAddress(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 852000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Users enter password \"tester 1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tester 1\"",
+                  "offset": 21
+                }
+              ],
+              "location": "step_definitions.SearchOnHBO_SignIn_Step_Definition.users_enter_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 297000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Users click in SignIn button",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_SignIn_Step_Definition.users_click_in_SignIn_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 280000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Users see Forget ID/Password",
+            "match": {
+              "location": "step_definitions.SearchOnHBO_SignIn_Step_Definition.users_see_Forget_ID_Password()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Search SignIn on hbo playHome page SignIn button",
+    "description": "  As an user i wanted to search SignIn on hbo.com with invalid credentials",
+    "id": "search-signin-on-hbo-playhome-page-signin-button",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/HBOSignIn.feature",
+    "tags": []
+  }
+]
