@@ -1,0 +1,1375 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2912000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am already at Bank Of America Home Page",
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.i_am_already_at_Bank_Of_America_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T02:49:38.841Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11170266000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 8540748000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Search Checking",
+        "description": "",
+        "id": "search-headers-on-boa-homepage-as-a-user;search-checking",
+        "after": [
+          {
+            "result": {
+              "duration": 231541000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 71000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6609000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am already at BOA Home Page",
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.i_am_already_at_BOA_Home_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15064000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Checking",
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.i_click_on_Checking()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1171000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see Checking page with Sign In",
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.i_should_see_Checking_page_with_Sign_In()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1194000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am already at Bank Of America Home Page",
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.i_am_already_at_Bank_Of_America_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T02:49:59.098Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7067509000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 8094593000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Search Savings",
+        "description": "",
+        "id": "search-headers-on-boa-homepage-as-a-user;search-savings",
+        "after": [
+          {
+            "result": {
+              "duration": 223212000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 83000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2863000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on Savings",
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.i_click_on_Savings()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 681000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I Should see savings page with Sign In page",
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.i_Should_see_savings_page_with_Sign_In_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1104000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am already at Bank Of America Home Page",
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.i_am_already_at_Bank_Of_America_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T02:50:14.513Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6857164000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 8191319000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Search Home Loans",
+        "description": "",
+        "id": "search-headers-on-boa-homepage-as-a-user;search-home-loans",
+        "after": [
+          {
+            "result": {
+              "duration": 163767000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 37000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2392000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on Home Loans",
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.i_click_on_Home_Loans()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1062000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I Should see Mortgages page",
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.i_Should_see_Mortgages_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 796000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am already at Bank Of America Home Page",
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.i_am_already_at_Bank_Of_America_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T02:50:29.753Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7076042000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 8884988000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Search Auto Loans",
+        "description": "",
+        "id": "search-headers-on-boa-homepage-as-a-user;search-auto-loans",
+        "after": [
+          {
+            "result": {
+              "duration": 243260000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 78000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2185000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click on Auto Loans",
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.i_click_on_Auto_Loans()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1121000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I Should see Auto Loan Rates page",
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.i_Should_see_Auto_Loan_Rates_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 968000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am already at Bank Of America Home Page",
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.i_am_already_at_Bank_Of_America_Home_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T02:50:45.986Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7529022000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 8801852000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "Search Better Money Habits",
+        "description": "",
+        "id": "search-headers-on-boa-homepage-as-a-user;search-better-money-habits",
+        "after": [
+          {
+            "result": {
+              "duration": 224971000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 72000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1419000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I click on Better Money Habits header",
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.i_click_on_Better_Money_Habits_header()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 839000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I Should see Better Money Habits page",
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.i_Should_see_Better_Money_Habits_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 952000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I should see Retirement",
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.i_should_see_Retirement()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 686000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I click on Retirement",
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.i_click_on_Retirement()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4592000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I can validate Retirement",
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.i_can_validate_Retirement()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Search headers on BOA homePage as a user",
+    "description": "  As an user i wanted to search headers on boa.com",
+    "id": "search-headers-on-boa-homepage-as-a-user",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/BoaHeader.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 788000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at Bank Of America homePage",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_at_Bank_Of_America_homePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T02:51:02.574Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7900568000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 8485780000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Search different options",
+        "description": "",
+        "id": "search-options-on-boa-homepage-as-a-user;search-different-options",
+        "after": [
+          {
+            "result": {
+              "duration": 300840000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 54000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2831000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am at BOA homePage",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_at_BOA_homePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1623000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Credit cards button in homepage",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_click_on_Credit_cards_button_in_homepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2148000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click in Credit cards button",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_click_in_Credit_cards_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1101000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should see Cards For Students",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_should_see_Cards_For_Students()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1445000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at Bank Of America homePage",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_at_Bank_Of_America_homePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T02:51:19.302Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10536716000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 9186690000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Search options using Parameter",
+        "description": "",
+        "id": "search-options-on-boa-homepage-as-a-user;search-options-using-parameter;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 283155000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 56000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3379000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am at BOA homePage",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_at_BOA_homePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1334000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click in Credit cards button",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_click_in_Credit_cards_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1500000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should see \"Cards For Students\" in Credit card page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cards For Students\"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_should_see_in_Credit_card_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2200000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see my \"\"Cards For Students \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 37
+                }
+              ],
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_should_see_my_Cards_For_Students(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@pending"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 954000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at Bank Of America homePage",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_at_Bank_Of_America_homePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T02:51:39.354Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9837025000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 10119327000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Search options using Parameter",
+        "description": "",
+        "id": "search-options-on-boa-homepage-as-a-user;search-options-using-parameter;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 210324000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 74000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3190000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am at BOA homePage",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_at_BOA_homePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 481000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click in Credit cards button",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_click_in_Credit_cards_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1065000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should see \"Lower Interest Rates Cards\" in Credit card page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lower Interest Rates Cards\"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_should_see_in_Credit_card_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 515000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see my \"\"Lower Interest Rates Cards\"\"",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_should_see_my_Lower_Interest_Rates_Cards()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@pending"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1666000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at Bank Of America homePage",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_at_Bank_Of_America_homePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T02:51:59.547Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7873187000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 7695729000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Search options using Parameter",
+        "description": "",
+        "id": "search-options-on-boa-homepage-as-a-user;search-options-using-parameter;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 150589000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 43000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2623000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am at BOA homePage",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_at_BOA_homePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 902000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click in Credit cards button",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_click_in_Credit_cards_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1351000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should see \"Points Rewards Cards\" in Credit card page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Points Rewards Cards\"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_should_see_in_Credit_card_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1187000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see my \"\"Points Rewards Cards \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 39
+                }
+              ],
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_should_see_my_Points_Rewards_Cards(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@pending"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1570000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at Bank Of America homePage",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_at_Bank_Of_America_homePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T02:52:15.290Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9235217000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 9296515000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Search options using Parameter",
+        "description": "",
+        "id": "search-options-on-boa-homepage-as-a-user;search-options-using-parameter;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 300873000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 51000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3894000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am at BOA homePage",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_at_BOA_homePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1872000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click in Credit cards button",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_click_in_Credit_cards_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4966000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should see \"Cash Rewards Credit Cards\" in Credit card page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cash Rewards Credit Cards\"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_should_see_in_Credit_card_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2422000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see my \"\"Cash Rewards Credit Cards\"\"",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_should_see_my_Cash_Rewards_Credit_Cards()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@pending"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1637000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am at Bank Of America homePage",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_at_Bank_Of_America_homePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T02:52:34.164Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8453479000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.openBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 11220444000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Search options using Parameter",
+        "description": "",
+        "id": "search-options-on-boa-homepage-as-a-user;search-options-using-parameter;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 307593000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.closeBrowser()"
+            }
+          },
+          {
+            "result": {
+              "duration": 75000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.BOAHeader_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2326000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am at BOA homePage",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_am_at_BOA_homePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1034000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click in Credit cards button",
+            "match": {
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_click_in_Credit_cards_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1086000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should see \"Travel And Airlines Rewards Cards\" in Credit card page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Travel And Airlines Rewards Cards\"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_should_see_in_Credit_card_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1144000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see my \"\"Travel And Airlines Rewards Cards \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 52
+                }
+              ],
+              "location": "step_definitions.SearchOnBoa_StepDefinition.i_should_see_my_Travel_And_Airlines_Rewards_Cards(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@pending"
+          }
+        ]
+      }
+    ],
+    "name": "Search options on BOA homePage as a user",
+    "description": "  As an user i wanted to search options on boa.com",
+    "id": "search-options-on-boa-homepage-as-a-user",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/BoaHome.feature",
+    "tags": []
+  }
+]

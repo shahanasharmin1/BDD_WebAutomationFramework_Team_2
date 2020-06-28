@@ -1,14 +1,18 @@
-Feature: Explore ebay HomePage
-  @SmokeTest
-  Scenario: search product in the search input box
-    Given I am at ebay.com
-    And I type shoes in the search box
-    When I click the search the button
-    Then I should see the shoes options
+Feature: Search series on ebay homepage searchBox
+  As an user i wanted to search product on ebay.com for watching
 
-  @Test1
-  Scenario: click on ebay homePage image
-    Given I am on ebay.com
-    When I click on image of ebayHomePage
-    Then I should see  variety section
+  Background:
+    Given I am at ebay Home Page
+
+  @SmokeTest
+  Scenario: Search product
+    And I Enter photo frame in search input field
+    When I Click search button
+    Then I should see photo frame
+
+  @Regression
+  Scenario: Search product
+    And I Enter photo frame in search input field
+    When I Click search button
+    Then I should see photo frame
 

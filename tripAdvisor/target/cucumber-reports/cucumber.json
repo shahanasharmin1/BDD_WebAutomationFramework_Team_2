@@ -1,0 +1,1276 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "I am at tripadvisor.com homepage",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T10:18:52.049Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9791157000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "In the searchbox",
+        "description": "",
+        "id": "as-a-customer-i-want-to-explore-trip-advisor-s-homepage;in-the-searchbox",
+        "after": [
+          {
+            "result": {
+              "duration": 243809000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I enter California in the search box",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I click on the search button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I should see the hotels",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test1"
+          }
+        ]
+      }
+    ],
+    "name": "As a customer I want to explore Trip Advisor\u0027s homepage",
+    "description": "",
+    "id": "as-a-customer-i-want-to-explore-trip-advisor-s-homepage",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-27T10:19:02.294Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5665509000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Search Hotels in tripAdvisor",
+        "description": "",
+        "id": "search-hotels-in-tripadvisor;search-hotels-in-tripadvisor",
+        "after": [
+          {
+            "result": {
+              "duration": 263148000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 59301000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am at tripAdvisor Home Page",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_am_at_tripAdvisor_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2717000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on hotels button in homepage",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_click_on_hotels_button_in_homepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1724000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click hotels button",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_click_hotels_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2538000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be able to search hotels in California",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_should_be_able_to_search_hotels_in_California()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T10:19:08.333Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5525032000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Scroll Down the tripAdviser homepage",
+        "description": "",
+        "id": "search-hotels-in-tripadvisor;scroll-down-the-tripadviser-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 238608000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 65915000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I scroll down the webPage byPixel",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_scroll_down_the_webPage_byPixel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 704000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I will see the webPage is scrolled down",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_will_see_the_webPage_is_scrolled_down()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T10:19:14.180Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5931428000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Scroll Down till the end of tripAdvisor homepage",
+        "description": "",
+        "id": "search-hotels-in-tripadvisor;scroll-down-till-the-end-of-tripadvisor-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 222605000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 53294000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I scroll down till the end",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_scroll_down_till_the_end()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1062000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I will see the page is  scrolled down  till to the end",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_will_see_the_page_is_scrolled_down_till_to_the_end()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T10:19:20.402Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5622164000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "I am at home page",
+        "description": "",
+        "id": "search-hotels-in-tripadvisor;i-am-at-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 261934000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Nafiss-Air.lan1\u0027, ip: \u00272604:2000:1601:6003:0:0:0:cb9%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.5\u0027, java.version: \u002711.0.6\u0027\nDriver info: driver.version: RemoteWebDriver\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\n\tat home.HomePage.setSearchSignIn(HomePage.java:113)\n\tat step_definitions.SearchOntripAdvisor_Step_definition.i_do_click_in_Sign_in(SearchOntripAdvisor_Step_definition.java:57)\n\tat ✽.I do click in Sign in(file:///Users/nafisshamsuzzoha/BDD_WebAutomationFramework_Team_2/tripAdvisor/src/main/java/features/tripAdvisorHome.feature:23)\n",
+              "duration": 32675000,
+              "status": "failed"
+            },
+            "line": 23,
+            "name": "I do click in Sign in",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_do_click_in_Sign_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1148000,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "I should see new page with signin with email",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_should_see_new_page_with_signin_with_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2022000,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "I pass \u003c email \u003e and \u003c password \u003e in search field",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_pass_email_and_password_in_search_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1445000,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "I click Log in",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_click_Log_in()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1638000,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "I should see forget ID",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_should_see_forget_ID()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1001000,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "I should validate forget ID",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_should_validate_forget_ID()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test4"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T10:19:26.357Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5264332000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "Search destinations in home page using parameters",
+        "description": "",
+        "id": "search-hotels-in-tripadvisor;search-destinations-in-home-page-using-parameters;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 241898000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2709000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I am already in trip advisor home page",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_am_already_in_trip_advisor_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 270601000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I am looking for New York City,NY in home page input field",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_am_looking_for_New_York_City_NY_in_home_page_input_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3811000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I should see \" New York City,NY \" results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" New York City,NY \"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_should_see_results(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2082000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I am able to do validate",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_am_able_to_do_validate()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test5"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T10:19:32.169Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5468226000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "Search destinations in home page using parameters",
+        "description": "",
+        "id": "search-hotels-in-tripadvisor;search-destinations-in-home-page-using-parameters;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 246365000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2104000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I am already in trip advisor home page",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_am_already_in_trip_advisor_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 262408000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I am looking for Singapore,Singapore in home page input field",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_am_looking_for_Singapore_Singapore_in_home_page_input_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3592000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I should see \" Singapore,Singapore \" results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" Singapore,Singapore \"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_should_see_results(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2152000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I am able to do validate",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_am_able_to_do_validate()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test5"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T10:19:38.171Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5423970000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "Search destinations in home page using parameters",
+        "description": "",
+        "id": "search-hotels-in-tripadvisor;search-destinations-in-home-page-using-parameters;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 218193000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4509000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I am already in trip advisor home page",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_am_already_in_trip_advisor_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 267516000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I am looking for Rome,Italy in home page input field",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_am_looking_for_Rome_Italy_in_home_page_input_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1869000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I should see \" Rome,Italy   \" results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" Rome,Italy   \"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_should_see_results(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2160000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I am able to do validate",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_am_able_to_do_validate()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test5"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T10:19:44.103Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5445819000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "Search destinations in home page using parameters",
+        "description": "",
+        "id": "search-hotels-in-tripadvisor;search-destinations-in-home-page-using-parameters;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 189416000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3509000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I am already in trip advisor home page",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_am_already_in_trip_advisor_home_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 252024000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I am looking for Paris,France in home page input field",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_am_looking_for_Paris_France_in_home_page_input_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3952000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I should see \" Paris,France   \" results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" Paris,France   \"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_should_see_results(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2059000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I am able to do validate",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_am_able_to_do_validate()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test5"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T10:19:50.017Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5417917000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 50,
+        "name": "Search dream next trip  using parameters",
+        "description": "",
+        "id": "search-hotels-in-tripadvisor;search-dream-next-trip--using-parameters;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 276298000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1698763000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I am looking for Washington DC,DC in home page input field",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_am_looking_for_Washington_DC_DC_in_home_page_input_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2399000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I should see \" Washington DC,DC \" results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" Washington DC,DC \"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_should_see_results(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2114000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I am able to do validate",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_am_able_to_do_validate()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test6"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T10:19:57.448Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5738094000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 51,
+        "name": "Search dream next trip  using parameters",
+        "description": "",
+        "id": "search-hotels-in-tripadvisor;search-dream-next-trip--using-parameters;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 230205000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 308811000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I am looking for Nantucket,MA in home page input field",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_am_looking_for_Nantucket_MA_in_home_page_input_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2019000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I should see \" Nantucket,MA \" results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" Nantucket,MA \"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_should_see_results(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1425000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I am able to do validate",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_am_able_to_do_validate()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test6"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T10:20:03.744Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5203494000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "Search dream next trip  using parameters",
+        "description": "",
+        "id": "search-hotels-in-tripadvisor;search-dream-next-trip--using-parameters;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 201159000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 263238000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I am looking for Atlantic City,NJ in home page input field",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_am_looking_for_Atlantic_City_NJ_in_home_page_input_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1960000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I should see \" Atlantic City,NJ \" results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" Atlantic City,NJ \"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_should_see_results(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 967000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I am able to do validate",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_am_able_to_do_validate()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test6"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T10:20:09.428Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5243262000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 53,
+        "name": "Search dream next trip  using parameters",
+        "description": "",
+        "id": "search-hotels-in-tripadvisor;search-dream-next-trip--using-parameters;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 205073000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1691000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I am looking for Arlington,VA in home page input field",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_am_looking_for_Arlington_VA_in_home_page_input_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1648000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I should see \" Arlington,VA  \" results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" Arlington,VA  \"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_should_see_results(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1848000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I am able to do validate",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_am_able_to_do_validate()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test6"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T10:20:14.895Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5125106000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 54,
+        "name": "Search dream next trip  using parameters",
+        "description": "",
+        "id": "search-hotels-in-tripadvisor;search-dream-next-trip--using-parameters;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 232918000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2909000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I am looking for Dewey Beach,DE in home page input field",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_am_looking_for_Dewey_Beach_DE_in_home_page_input_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1474000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I should see \" Dewey Beach,DE \" results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" Dewey Beach,DE \"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_should_see_results(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1405000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I am able to do validate",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_am_able_to_do_validate()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test6"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-27T10:20:20.275Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5215020000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.openBrowser()"
+            }
+          }
+        ],
+        "line": 55,
+        "name": "Search dream next trip  using parameters",
+        "description": "",
+        "id": "search-hotels-in-tripadvisor;search-dream-next-trip--using-parameters;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 206812000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1142000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I am looking for Cape Neddick , ME in home page input field",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_am_looking_for_Cape_Neddick_ME_in_home_page_input_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2112000,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I should see \" Cape Neddick , ME \" results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" Cape Neddick , ME \"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_should_see_results(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2602000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I am able to do validate",
+            "match": {
+              "location": "step_definitions.SearchOntripAdvisor_Step_definition.i_am_able_to_do_validate()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test6"
+          }
+        ]
+      }
+    ],
+    "name": "Search Hotels in tripAdvisor",
+    "description": "  As a customer i want to search  in  tripAdvisor.com for hotels in California",
+    "id": "search-hotels-in-tripadvisor",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/tripAdvisorHome.feature",
+    "tags": []
+  }
+]

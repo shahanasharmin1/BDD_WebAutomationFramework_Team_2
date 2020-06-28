@@ -1,8 +1,56 @@
-Feature: Search Shows on HBO
-  As a user i want to search Game of Thrones in HBO search bar.
+Feature: Search series on hbo homepage searchBox
+  As an user i wanted to search product on hbo.com for watching
 
-  Scenario: Search Game of Thrones in HBO
-    Given I am at HBO HomePage
-    And I click on search Field
-    When I Search Game Of Thrones
-    Then I should be able to see results for Game of Thrones
+  Background:
+    Given I am at hbo Home Page
+
+  @SmokeTest
+  Scenario: Search product
+    And I Enter Series in search input field
+    When I Click search button
+    Then I should see SERIES
+
+  @Regression
+  Scenario: Search product
+    And I Enter Series in search input field
+    When I Click search button
+    Then I should see SERIES
+
+  @SmokeTest
+  Scenario: Search product using Parameter
+    And I Enter "SERIES" in search input field
+    When I Click search button
+    Then I should see "\"SERIES\""
+
+  @pending
+  Scenario: Search product using Parameter
+    And I Enter Items in search input field
+      | SERIES       |
+      | Girls Season |
+      | Alien 3      |
+      | The Newsroom |
+    When I Click search button
+    Then I should see Expected Items
+      | "SERIES"       |
+      | "Girls Season" |
+      | "Alien 3"      |
+      | "The Newsroom" |
+
+  @pending
+  Scenario Outline: Search product using Parameter
+    And I Enter "<Items>" in search input field
+    When I Click search button
+    Then I Should see "<ExpectedItems>"
+
+    Examples:
+      | Items        | ExpectedItems
+      | SERIES       | "SERIES"
+      | Girls Season | "Girls Season"
+      | Alien 3      | "Alien 3"
+      | The Newsroom | "The Newsroom"
+
+  @pending
+  Scenario: Search product using Parameter
+    And I Enter "SERIES" in search input field
+    When I Click search button
+    Then I should see "SERIES"

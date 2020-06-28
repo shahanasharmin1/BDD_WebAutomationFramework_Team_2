@@ -12,8 +12,15 @@ import org.junit.runner.RunWith;
         strict = true,
         monochrome = true,
         dryRun = false,
-        tags = ""
+        //tags = " (@SmokeTest or @Regression) and not @pending"
+        // tags = "(@SmokeTest or @Regression) and (not @pending)"
+        // tags = {"@SmokeTest or @Regression and not @pending"}
+        tags =""
+
+
 )
+
+
 public class TestRunner {
 
 }

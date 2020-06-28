@@ -1,6 +1,4 @@
 package runner;
-
-import io.cucumber.core.options.CucumberOptionsAnnotationParser;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
@@ -13,8 +11,17 @@ import org.junit.runner.RunWith;
         strict = true,
         monochrome = true,
         dryRun = false,
+        //        tags = " (@SmokeTest or @Regression) and not @pending"
+        //tags = "(@SmokeTest or @Regression) and (not @pending)"
+//        tags = {"@SmokeTest or @Regression and not @pending"}
         tags = ""
-)
-public class TestRunner {
 
+
+)
+
+
+
+
+public class TestRunner {
 }
+

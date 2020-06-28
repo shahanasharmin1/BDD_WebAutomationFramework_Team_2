@@ -1,45 +1,28 @@
 [
   {
-    "line": 1,
+    "line": 3,
     "elements": [
       {
-        "start_timestamp": "2020-06-20T12:42:39.875Z",
+        "start_timestamp": "2020-06-28T02:30:36.533Z",
         "before": [
           {
             "result": {
-              "duration": 6351804900,
+              "duration": 15497027000,
               "status": "passed"
             },
             "match": {
               "location": "step_definitions.SearchOnAt_t_StepDefinition.openBrowser()"
             }
-          },
-          {
-            "result": {
-              "duration": 6106895600,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.SignInOption_Step_Definition.openBrowser()"
-            }
           }
         ],
-        "line": 4,
+        "line": 7,
         "name": "Search deals",
         "description": "",
         "id": "search-deals-on-at\u0026t-search-box;search-deals",
         "after": [
           {
             "result": {
-              "duration": 683267500,
-              "status": "passed"
-            },
-            "match": {
-              "location": "step_definitions.SignInOption_Step_Definition.closeBrowser()"
-            }
-          },
-          {
-            "result": {
+              "duration": 187210000,
               "status": "passed"
             },
             "match": {
@@ -52,10 +35,10 @@
         "steps": [
           {
             "result": {
-              "duration": 15616000,
+              "duration": 48583000,
               "status": "passed"
             },
-            "line": 5,
+            "line": 8,
             "name": "I am at at\u0026t Home Page",
             "match": {
               "location": "step_definitions.SearchOnAt_t_StepDefinition.i_am_at_at_t_Home_Page()"
@@ -64,10 +47,10 @@
           },
           {
             "result": {
-              "duration": 13137418600,
+              "duration": 2488000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 9,
             "name": "I enter deals on the search box in homepage",
             "match": {
               "location": "step_definitions.SearchOnAt_t_StepDefinition.i_enter_deals_on_the_search_box_in_homepage()"
@@ -76,9 +59,10 @@
           },
           {
             "result": {
+              "duration": 1775000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 10,
             "name": "I click search button",
             "match": {
               "location": "step_definitions.SearchOnAt_t_StepDefinition.i_click_search_button()"
@@ -87,15 +71,568 @@
           },
           {
             "result": {
-              "duration": 14639800,
+              "duration": 2904000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 11,
             "name": "I should see deals",
             "match": {
               "location": "step_definitions.SearchOnAt_t_StepDefinition.i_should_see_deals()"
             },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T02:30:52.517Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9551654000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Scroll Down the at\u0026t homepage",
+        "description": "",
+        "id": "search-deals-on-at\u0026t-search-box;scroll-down-the-at\u0026t-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 133963000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 333060000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I scroll down the webPage byPixel",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_scroll_down_the_webPage_byPixel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2054000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I will see the webPage is scrolled down",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_will_see_the_webPage_is_scrolled_down()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T02:31:02.557Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8835762000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Scroll Down till the end of at\u0026t homepage",
+        "description": "",
+        "id": "search-deals-on-at\u0026t-search-box;scroll-down-till-the-end-of-at\u0026t-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 119956000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 428310000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I scroll down till the end",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_scroll_down_till_the_end()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 877000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I will see the page is  scrolled down  till to the end",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_will_see_the_page_is_scrolled_down_till_to_the_end()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T02:31:11.952Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8286652000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "Search offers in Search box input field",
+        "description": "",
+        "id": "search-deals-on-at\u0026t-search-box;search-offers-in-search-box-input-field;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 117467000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 597000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I am in search box input field",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_am_in_search_box_input_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 933000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I am looking for Upgrade a device in search box input field",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_am_looking_for_Upgrade_a_device_in_search_box_input_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1523000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I should see \"Upgrade a device results",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_should_see_Upgrade_a_device_results()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1132000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I am able to do validate",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_am_able_to_do_validate()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test4"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T02:31:20.389Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11863244000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Search offers in Search box input field",
+        "description": "",
+        "id": "search-deals-on-at\u0026t-search-box;search-offers-in-search-box-input-field;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 204038000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1177000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I am in search box input field",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_am_in_search_box_input_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4365360000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I am looking for AT\u0026T PREPAID in search box input field",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_am_looking_for_AT_T_PREPAID_in_search_box_input_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1628000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I should see \"AT\u0026T PREPAID \" results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AT\u0026T PREPAID \"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_should_see_results(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1415000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I am able to do validate",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_am_able_to_do_validate()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test4"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T02:31:36.842Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11616411000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Search offers in Search box input field",
+        "description": "",
+        "id": "search-deals-on-at\u0026t-search-box;search-offers-in-search-box-input-field;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 318470000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1208000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I am in search box input field",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_am_in_search_box_input_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3141193000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I am looking for TV \u0026 internet bundles in search box input field",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_am_looking_for_TV_internet_bundles_in_search_box_input_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1767000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I should see \"TV \u0026 internet bundles\" results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TV \u0026 internet bundles\"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_should_see_results(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3960000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I am able to do validate",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_am_able_to_do_validate()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test4"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T02:31:51.945Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11221790000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "Search offers in Search box input field",
+        "description": "",
+        "id": "search-deals-on-at\u0026t-search-box;search-offers-in-search-box-input-field;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 182587000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 444000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I am in search box input field",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_am_in_search_box_input_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 455000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I am looking for AT\u0026T deals in search box input field",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_am_looking_for_AT_T_deals_in_search_box_input_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 469000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I should see \" AT\u0026T deals  \" results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\" AT\u0026T deals  \"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_should_see_results(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 667000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I am able to do validate",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_am_able_to_do_validate()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test4"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T02:32:03.364Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11197792000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "Scenario: DO dropDown on Account",
+        "description": "",
+        "id": "search-deals-on-at\u0026t-search-box;scenario:-do-dropdown-on-account",
+        "after": [
+          {
+            "result": {
+              "duration": 147295000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1083000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I click on the drop down button and i select View \u0026 pay bill",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_click_on_the_drop_down_button_and_i_select_View_pay_bill()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1777000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I should see Sign in page",
+            "match": {
+              "location": "step_definitions.SearchOnAt_t_StepDefinition.i_should_see_Sign_in_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test5"
           }
         ]
       }

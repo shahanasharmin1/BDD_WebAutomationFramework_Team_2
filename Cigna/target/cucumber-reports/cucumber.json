@@ -1,0 +1,505 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-28T03:03:02.860Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9975093000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Scroll Down the cigna homepage",
+        "description": "",
+        "id": "search-home-page--on-at\u0026t-home-page;scroll-down-the-cigna-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 193966000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 575781000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I scroll down the webPage byPixel",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_scroll_down_the_webPage_byPixel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2183000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I will see the webPage is scrolled down",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_will_see_the_webPage_is_scrolled_down()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T03:03:13.826Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6844456000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Scroll Down till the end of cigna homepage",
+        "description": "",
+        "id": "search-home-page--on-at\u0026t-home-page;scroll-down-till-the-end-of-cigna-homepage",
+        "after": [
+          {
+            "result": {
+              "duration": 234601000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 861788000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I scroll down till the end",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_scroll_down_till_the_end()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1177000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I will see the page is  scrolled down  till to the end",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_will_see_the_page_is_scrolled_down_till_to_the_end()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T03:03:21.788Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6622754000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Search Log in using parameters",
+        "description": "",
+        "id": "search-home-page--on-at\u0026t-home-page;search-log-in-using-parameters;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 283877000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1667000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am in Log in page",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_in_Log_in_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3101000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I am passing  tester1 in search  input field",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_passing_tester1_in_search_input_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1661000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I do pass 1234 in input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1234",
+                  "offset": 10
+                }
+              ],
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_do_pass_in_input_field(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1250308000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see Log in",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_should_see_Log_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T03:03:29.972Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6974369000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Search Log in using parameters",
+        "description": "",
+        "id": "search-home-page--on-at\u0026t-home-page;search-log-in-using-parameters;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 333391000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1496000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am in Log in page",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_in_Log_in_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2374000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I am passing  tester2 in search  input field",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_passing_tester2_in_search_input_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1477000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I do pass 1232 in input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1232",
+                  "offset": 10
+                }
+              ],
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_do_pass_in_input_field(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 920965000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see Log in",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_should_see_Log_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T03:03:38.217Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6816928000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Search Log in using parameters",
+        "description": "",
+        "id": "search-home-page--on-at\u0026t-home-page;search-log-in-using-parameters;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 2436686000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2011000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am in Log in page",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_in_Log_in_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1504000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I am passing  tester3 in search  input field",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_passing_tester3_in_search_input_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1301000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I do pass 1243 in input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1243",
+                  "offset": 10
+                }
+              ],
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_do_pass_in_input_field(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1187260000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see Log in",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_should_see_Log_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-28T03:03:48.675Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6523208000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.openBrowser()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Search Log in using parameters",
+        "description": "",
+        "id": "search-home-page--on-at\u0026t-home-page;search-log-in-using-parameters;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 345066000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1747000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I am in Log in page",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_in_Log_in_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2164000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I am passing  tester4 in search  input field",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_am_passing_tester4_in_search_input_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1572000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I do pass 4321 in input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4321",
+                  "offset": 10
+                }
+              ],
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_do_pass_in_input_field(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1181520000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should see Log in",
+            "match": {
+              "location": "step_definitions.SearchOnCigna_StepDefinition.i_should_see_Log_in()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test3"
+          }
+        ]
+      }
+    ],
+    "name": "Search home page  on at\u0026t home page",
+    "description": "  As a customer i wanted to search home page on cigna.com homepage",
+    "id": "search-home-page--on-at\u0026t-home-page",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/CignaHome.feature",
+    "tags": []
+  }
+]
