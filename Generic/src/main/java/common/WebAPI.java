@@ -19,9 +19,7 @@ import java.io.IOException;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 import java.util.concurrent.TimeUnit;
 
 public class WebAPI {
@@ -559,6 +557,109 @@ public class WebAPI {
         String text = webElement.getText();
         return text;
     }
+    public static void handleWindow() {
+        String parentHandle = driver.getWindowHandle();
+        System.out.println("parent window - " + parentHandle);
+        Set<String> handles = driver.getWindowHandles();
+        for (String handle : handles) {
+            System.out.println(handle);
+            if (!handle.equals(parentHandle)) {
+                driver.switchTo().window(handle);
+            }
+        }
+    }
+    public static void Enter() {
+        Actions drpdown = new Actions(driver);
+        drpdown.sendKeys(Keys.ENTER).perform();
+    }
+    public static void navigateurl(String url) {
+        driver.navigate().to(url);
+    }
 
+    /* Drop Down for Index */
+    public void selectOptionByIndex(WebElement element, String value) {
+        Select select = new Select(element);
+        select.selectByVisibleText(value);
+    }
 
+    public static void mouseHover(WebElement element) {
+        try {
+            Actions hover = new Actions(driver);
+            hover.moveToElement(element).perform();
+        } catch (Exception ex) {
+            System.out.println("1st mouse-hover attempt failed - Attempting 2nd time");
+            Actions hover = new Actions(driver);
+            hover.moveToElement(element).perform();
+        }
+    }
+
+    public static void refreshPage() {
+        driver.navigate().refresh();
+    }
+
+    public static void doubleClickElement(WebElement element) {
+        Actions act = new Actions(driver);
+        act.doubleClick(element).perform();
+    }
+
+    public static void rightClickElement(WebElement element) {
+        Actions act = new Actions(driver);
+        act.contextClick(element).perform();
+    }
+
+    public static void switchToNewWindow() {
+        // Store the current window handle
+        String winHandleBefore = driver.getWindowHandle();
+    }
+    public static void checkCheckbox(boolean checked) {
+        WebElement checkbox = driver.findElement(By.id("cardActivity"));
+        if (checked != checkbox.isSelected())
+        {
+            checkbox.click();
+        }
+    }
+    /*
+    method to print links by Iteration
+    @author: kahina
+    */
+    public void printLinksTextByIteration(String locator) {
+        List<WebElement> allLinks = driver.findElements(By.xpath(locator));
+        Iterator<WebElement> itr = allLinks.iterator();
+        while (itr.hasNext()) {
+            System.out.println(itr.next().getText());
+        }
+    }
+    /*
+    methods to get the tooltip text
+    @author:kahina
+    */
+    public void dragAndDropUsingXpath(String locator){
+        //Element which needs to drag.
+        WebElement From=driver.findElement(By.xpath(locator));
+        //Element on which need to drop.
+        WebElement To=driver.findElement(By.xpath(locator));
+        //Using Action class for drag and drop.
+        Actions act=new Actions(driver);
+        //Dragged and dropped.
+        act.dragAndDrop(From, To).build().perform();
+    }
+    public void checkBoxSelectedByCSS(String locator){
+        driver.findElement(By.cssSelector(locator)).isSelected();
+    }
+    public void checkBoxSelectedByXpath(String locator){
+
+        driver.findElement(By.cssSelector(locator)).isSelected();
+    }
+    public void clickByLinkText(String locator){
+
+        driver.findElement(By.cssSelector(locator)).click();
+    }
+    public void typeByID(String locator, String value){
+
+        driver.findElement(By.xpath(locator)).sendKeys(value);
+    }
+    public void clickByID(String locator){
+
+        driver.findElement(By.cssSelector(locator)).click();
+    }
 }
