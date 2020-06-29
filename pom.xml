@@ -17,7 +17,7 @@
         <module>Generic</module>
         <module>Cigna</module>
         <module>HBO</module>
-        <module>Expedia</module>
+        <module>tripAdvisor</module>
     </modules>
 
     <properties>

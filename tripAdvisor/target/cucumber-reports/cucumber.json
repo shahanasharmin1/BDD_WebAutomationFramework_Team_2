@@ -1,0 +1,60 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-29T04:08:14.530Z",
+        "line": 4,
+        "name": "Search Hotels in tripAdvisor",
+        "description": "",
+        "id": "search-hotels-in-tripadvisor;search-hotels-in-tripadvisor",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I am at tripAdvisor Home Page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I click on hotels button in homepage",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I click hotels button",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I should be able to search hotels in California",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search Hotels in tripAdvisor",
+    "description": "  As a customer i want to search hotels in California",
+    "id": "search-hotels-in-tripadvisor",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/features/tripAdvisorHome.feature",
+    "tags": []
+  }
+]

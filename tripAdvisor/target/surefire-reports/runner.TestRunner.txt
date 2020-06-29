@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.583 s <<< FAILURE! - in runner.TestRunner
+Search Hotels in tripAdvisor.Search Hotels in tripAdvisor  Time elapsed: 0.299 s  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step "I am at tripAdvisor Home Page" is undefined. You can implement it using the snippet(s) below:
+
+@Given("I am at tripAdvisor Home Page")
+public void i_am_at_tripAdvisor_Home_Page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
+Some other steps were also undefined:
+
+@Given("I click on hotels button in homepage")
+public void i_click_on_hotels_button_in_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("I click hotels button")
+public void i_click_hotels_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I should be able to search hotels in California")
+public void i_should_be_able_to_search_hotels_in_California() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
