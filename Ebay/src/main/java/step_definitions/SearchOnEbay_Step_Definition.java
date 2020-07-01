@@ -27,26 +27,24 @@ public class SearchOnEbay_Step_Definition extends WebAPI {
         homePage = PageFactory.initElements(driver, HomePage.class);
     }
 
-    @Given("I am at Ebay Home Page")
-    public void i_am_at_Ebay_Home_Page() {
-getInitElements();
+    @Given("I am at ebay Home Page")
+    public void i_am_at_ebay_Home_Page() {
+        getInitElements();
     }
 
-    @Given("I Enter Maven Book in search input field")
-    public void i_Enter_Maven_Book_in_search_input_field() {
-
+    @Given("I Enter photo frame in search input field")
+    public void i_Enter_photo_frame_in_search_input_field() {
+        getInitElements();
     }
 
     @When("I Click search button")
     public void i_Click_search_button() {
-
+        getInitElements();
     }
 
-    @Then("I should see the desired Maven Book")
-    public void i_should_see_the_desired_Maven_Book() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+    @Then("I should see photo frame")
+    public void i_should_see_photo_frame() {
+        getInitElements();
     }
-
 
 }

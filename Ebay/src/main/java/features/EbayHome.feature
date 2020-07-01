@@ -1,9 +1,17 @@
-Feature: Search product on ebay .
-  As user i am locating a book and adding to cart.
+Feature: Search series on ebay homepage searchBox
+  As an user i wanted to search product on ebay.com for watching
 
+  Background:
+    Given I am at ebay Home Page
 
+  @SmokeTest
   Scenario: Search product
-    Given I am at Ebay Home Page
-    And I Enter Maven Book in search input field
+    And I Enter photo frame in search input field
     When I Click search button
-    Then I should see the desired Maven Book
+    Then I should see photo frame
+
+  @Regression
+  Scenario: Search product
+    And I Enter photo frame in search input field
+    When I Click search button
+    Then I should see photo frame
